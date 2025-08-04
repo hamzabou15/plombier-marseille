@@ -12,34 +12,34 @@ interface Project {
 }
 const projects: Project[] = [
     {
-        title: "Débouchage canalisation cuisine - Toulon Centre",
+        title: "Débouchage canalisation cuisine - Aix-En-Provence Centre",
         category: "Intervention express sous 1h",
         image: "/images/salle-de-bain.webp",
-        alt: "Débouchage canalisation cuisine par plombier urgence Toulon",
+        alt: "Débouchage canalisation cuisine par plombier urgence Aix-En-Provence",
     },
     {
         title: "Remplacement chauffe-eau - La Bocca",
         category: "Installation en 2h avec garantie",
-        image: "/images/entretien-de-chaudiere-a-toulon.webp",
-        alt: "Remplacement chauffe-eau par plombier Toulon",
+        image: "/images/entretien-de-chaudiere-a-aixenprovence.webp",
+        alt: "Remplacement chauffe-eau par plombier Aix-En-Provence",
     },
     {
         title: "Réparation fuite murale - Le Suquet",
         category: "Détection sans casse",
         image: "/images/Reparation-de-fuite-eau.webp",
-        alt: "Réparation fuite murale à Toulon par expert plomberie",
+        alt: "Réparation fuite murale à Aix-En-Provence par expert plomberie",
     },
     {
         title: "Détection fuite enterrée - La Croisette",
         category: "Technologie non destructive",
         image: "/images/Inspection-de-canalisation-pour-fuite-enterrer.webp",
-        alt: "Détection fuite canalisation enterrée à Toulon",
+        alt: "Détection fuite canalisation enterrée à Aix-En-Provence",
     },
     {
         title: "Rénovation salle de bain - Californie",
         category: "Travaux clé en main",
         image: "/images/Installations-de-canalisations-habiles.webp",
-        alt: "Rénovation salle de bain par plombier Toulon",
+        alt: "Rénovation salle de bain par plombier Aix-En-Provence",
     },
 ];
 
@@ -73,19 +73,19 @@ export default function ProjectSection() {
     const stopDrag = () => setIsDragging(false);
 
     return (
-        <section className="bg-[#f7f9fa] px-16 max-md:px-6 py-16 mx-auto">
-            <div className="max-w-6xl mx-auto mb-10">
+        <section className="bg-[#f7f9fa] px-16 max-md:px-6 py-16 mx-auto max-sm:pex-5">
+            <div className="max-w-6xl mx-auto  mb-10">
                 <div className="flex justify-between items-center mb-6">
                     <div className="flex flex-col gap-4">
                         <p className="uppercase text-sm tracking-widest text-gray-500 font-medium">
                             Nos réalisations
                         </p>
                         <div className="flex gap-5 max-sm:flex-col">
-                            <h2 className="text-4xl font-extrabold max-md:text-3xl text-[#00B4D8]">
-                                Interventions Plomberie à Toulon
+                            <h2 className="text-4xl font-extrabold  max-xl:text-[28px] text-[#212121]">
+                                Interventions Plomberie à Aix-En-Provence
                             </h2>
                             <p className="mt-2 text-gray-600 max-w-xl text-base">
-                                Exemples concrets de dépannages urgents réalisés par nos plombiers experts sur Toulon et ses quartiers.
+                                Exemples concrets de dépannages urgents réalisés par nos plombiers experts sur Aix-En-Provence et ses quartiers.
                             </p>
                         </div>
 
@@ -132,7 +132,7 @@ export default function ProjectSection() {
                                     className="object-cover transition-transform duration-500 group-hover:hover:scale-[1.1]"
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-white/95 px-4 py-3 translate-y-full group-hover:translate-y-[-20px] transition-transform duration-500 ease-in-out">
-                                    <h3 className="text-base font-semibold text-[#00B4D8]">
+                                    <h3 className="text-base font-semibold text-[#212121]">
                                         {project.title}
                                     </h3>
                                     <p className="text-sm text-gray-600">{project.category}</p>

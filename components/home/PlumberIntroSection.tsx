@@ -1,90 +1,95 @@
 "use client";
 
 import Image from "next/image";
-import { Phone, Check } from "lucide-react";
 import Link from "next/link";
+import { Phone, Clock, Award, Star } from "lucide-react";
 import { Button } from "../ui/button";
 
-const servicesList = [
-  "Dépannage fuite d'eau - Détection sans casse",
-  "Débouchage canalisation - WC, évier, douche",
-  "Remplacement chauffe-eau - Électrique, thermodynamique",
-  "Réparation sanitaire - Robinetterie, éviers, WC",
-  "Rénovation salle de bains - Clé en main",
-  "Installation pompe à chaleur - Certifié QUALIPAC"
+const stats = [
+    { label: "Interventions réussies", value: "1500+" },
+    { label: "Années d'expérience", value: "12" },
+    { label: "Satisfaction client", value: "98%" },
 ];
 
-const areasServed = [
-  "Toulon Centre", "Le Mourillon", "Pont-du-Las", 
-  "Saint-Jean du Var", "Le Pont Neuf", "La Rode",
-  "La Valette-du-Var", "La Garde", "Le Revest-les-Eaux"
-];
-
-export default function PlumbingIntro() {
+export default function HeroPlomberie2025() {
     return (
-        <section className="py-16 md:py-24 bg-[#f7f9fa]">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12">
-                <div className="lg:w-1/2">
-                    <p className="uppercase text-sm text-gray-600 font-semibold tracking-widest mb-2">
-                        Plombier Toulon - Artisan Local
+        <section className="relative bg-[#0F172A] text-white overflow-hidden">
+            <div className="absolute inset-0">
+                <Image
+                    src="/images/plomberie-bg.webp"
+                    alt="Plombier Aix-en-Provence"
+                    fill
+                    className="object-cover opacity-30" // un peu moins opaque pour pas assombrir trop
+                    priority
+                />
+                <div className="absolute inset-0 bg-gradient-to-br from-[#0F172A]/90 via-[#0F172A]/85 to-[#1E293B]/85" />
+            </div>
+
+            <div className="relative max-w-6xl mx-auto px-6 py-24 lg:py-32 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-xl:px-10 max-sm:px-5">
+                {/* Texte */}
+                <div>
+                    <span className="inline-block bg-[#E67E22]/25 text-[#E67E22] px-4 py-1 rounded-full text-sm font-semibold mb-5 tracking-wide uppercase">
+                        Disponible 24h/24 - 7j/7
+                    </span>
+                    <h1 className="text-5xl sm:text-6xl font-extrabold leading-tight max-w-xl">
+                        Votre plombier <span className="text-[#E67E22]">de confiance</span> à Aix-en-Provence
+                    </h1>
+                    <p className="mt-6 text-lg text-gray-200 max-w-lg leading-relaxed">
+                        Intervention rapide, diagnostic précis, réparation garantie.
+                        Fuites, débouchages, chauffe-eau et rénovations, faites confiance à nos experts.
                     </p>
-                    <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 leading-tight">
-                        Service Plomberie Complète dans le <span className="text-[#0077B6]">Var</span>
-                    </h2>
 
-                    <div className="mb-6">
-                        {servicesList.map((service, index) => (
-                            <div key={index} className="flex items-start mb-2">
-                                <Check className="w-5 h-5 text-[#0077B6] mt-0.5 mr-2 flex-shrink-0" />
-                                <p className="text-gray-700">{service}</p>
-                            </div>
-                        ))}
-                    </div>
-
-                    <div className="mb-8">
-                        <p className="font-semibold text-gray-900 mb-2">Zones d&apos;intervention :</p>
-                        <div className="flex flex-wrap gap-2">
-                            {areasServed.map((area, index) => (
-                                <span key={index} className="bg-white border border-[#0077B6] text-[#0f4c5c] px-3 py-1 rounded-full text-sm">
-                                    {area}
-                                </span>
-                            ))}
-                        </div>
-                    </div>
-
-                    <div className="flex flex-col sm:flex-row gap-4 max-md:items-center">
-                        <Link href="/contact">
-                            <Button size={"lg"} variant="submit">
-                                ✉ Demander un devis
+                    {/* CTA */}
+                    <div className="mt-8 flex flex-col sm:flex-row gap-5 max-sm:items-center max-sm:justify-center">
+                        <Link href="/contact" className="flex-1 max-w-xs">
+                            <Button
+                                size="lg"
+                                className="w-full bg-[#E67E22] hover:bg-[#d68400] text-white font-semibold shadow-lg transition"
+                            >
+                                Demander un devis
                             </Button>
                         </Link>
-                     <a href="tel:+33756935200" aria-label="Appeler un plombier urgence Toulon">
-                            <Button size={"lg"} variant="submit">
-                                <Phone className="w-5 h-5" />
-                                <span className="font-semibold">+33 756 93 52 00</span>
+                        <a href="tel:+33756935200" className="flex-1 max-w-xs">
+                            <Button
+                                size="lg"
+                                variant="outline"
+                                className="w-full border-[#E67E22] text-[#E67E22] hover:bg-[#E67E22] hover:text-white font-semibold shadow transition"
+                            >
+                                <Phone className="w-5 h-5 mr-3" /> Urgence 07 56 93 52 00
                             </Button>
                         </a>
                     </div>
+
+                    {/* Stats */}
+                    <div className="mt-14 grid grid-cols-3 gap-8 max-w-xs sm:max-w-none">
+                        {stats.map((stat, i) => (
+                            <div key={i} className="text-center">
+                                <p className="text-3xl font-bold text-[#E67E22]">{stat.value}</p>
+                                <p className="text-sm sm:text-base text-gray-300">{stat.label}</p>
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
-                <div className="lg:w-1/2 grid grid-cols-2 gap-4 max-lg:w-full">
-                    {[
-                        "/images/plombier-toulon.Webp",
-                        "/images/plombier-expert-toulon.webp",
-                        "/images/chauffeau.webp",
-                        "/images/plombier-sur-toulon-fuite-Renovation.webp"
-                    ].map((src, index) => (
-                        <div key={index} className="relative h-72 rounded-lg overflow-hidden shadow-lg border border-gray-200">
-                            <Image
-                                src={src}
-                                alt={`Plombier expert intervenant à Toulon - Service ${index+1}`}
-                                fill
-                                className="object-cover"
-                            />
+                {/* Image avec forme organique */}
+                <div className="relative">
+                    <div className="absolute -inset-6 rounded-[2.5rem] bg-[#E67E22]/25 blur-3xl" />
+                    <div className="relative rounded-[2rem] overflow-hidden shadow-xl border border-white/20">
+                        <Image
+                            src="/images/plombier-aixenprovence.webp"
+                            alt="Plombier en intervention"
+                            width={520}
+                            height={620}
+                            className="object-cover w-full"
+                            priority
+                        />
+                        <div className="absolute top-5 right-5 bg-white text-[#0F172A] px-4 py-1 rounded-full flex items-center gap-2 text-sm font-semibold shadow-lg">
+                            <Star className="w-5 h-5 text-yellow-400" /> 5.0 Avis Clients
                         </div>
-                    ))}
+                    </div>
                 </div>
             </div>
         </section>
+
     );
 }

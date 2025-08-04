@@ -1,5 +1,5 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://plombiertoulon-expert.fr",
+  siteUrl: "https://plombieraixenprovence-sos.fr",
   generateRobotsTxt: true,
 };

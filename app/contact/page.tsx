@@ -4,19 +4,19 @@ import Head from 'next/head'
 import React from 'react'
 
 export const metadata = {
-    title: "Plombier à Toulon - Interventions rapides & professionnelles",
-    description: "Intervention express à Toulon pour dépannage, fuite, débouchage, chauffe-eau et plus. Plombier expérimenté, devis gratuit et service garanti.",
+    title: "Plombier à Aix-En-Provence - Interventions rapides & professionnelles",
+    description: "Intervention express à Aix-En-Provence pour dépannage, fuite, débouchage, chauffe-eau et plus. Plombier expérimenté, devis gratuit et service garanti.",
     openGraph: {
-        title: "Plombier à Toulon - Interventions rapides & professionnelles",
-        description: "Intervention express à Toulon pour dépannage, fuite, débouchage, chauffe-eau et plus.",
-        url: "https://plombiertoulon-expert.fr",
-        siteName: "Plombier Toulon Expert",
+        title: "Plombier à Aix-En-Provence - Interventions rapides & professionnelles",
+        description: "Intervention express à Aix-En-Provence pour dépannage, fuite, débouchage, chauffe-eau et plus.",
+        url: "https://plombieraixenprovence-sos.fr",
+        siteName: "Plombier Aix-En-Provence SOS",
         images: [
             {
-                url: "https://plombiertoulon-expert.fr/images/plombier-toulon-hero.webp",
+                url: "https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence-hero.webp",
                 width: 800,
                 height: 600,
-                alt: "Plombier professionnel à Toulon",
+                alt: "Plombier professionnel à Aix-En-Provence",
             },
         ],
         locale: "fr_FR",
@@ -24,9 +24,9 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Plombier à Toulon - Interventions rapides & professionnelles",
-        description: "Plombier expérimenté pour dépannage, fuite, chauffe-eau, rénovation à Toulon. Service rapide, devis gratuit.",
-        images: ["https://plombiertoulon-expert.fr/images/plombier-toulon-hero.webp"],
+        title: "Plombier à Aix-En-Provence - Interventions rapides & professionnelles",
+        description: "Plombier expérimenté pour dépannage, fuite, chauffe-eau, rénovation à Aix-En-Provence. Service rapide, devis gratuit.",
+        images: ["https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence-hero.webp"],
     },
 };
 const page = () => {
@@ -40,15 +40,15 @@ const page = () => {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "LocalBusiness",
-                            name: "PlombierToulon Expert",
-                            image: "https://plombiertoulon-expert.fr/images/plombier-toulon-hero.webp",
-                            "@id": "https://plombiertoulon-expert.fr/",
-                            url: "https://plombiertoulon-expert.fr/",
+                            name: "PlombierAix-En-Provence SOS",
+                            image: "https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence-hero.webp",
+                            "@id": "https://plombieraixenprovence-sos.fr/",
+                            url: "https://plombieraixenprovence-sos.fr/",
                             telephone: "+33756935200",
                             address: {
                                 "@type": "PostalAddress",
                                 streetAddress: "12 Rue de France",
-                                addressLocality: "Toulon",
+                                addressLocality: "Aix-En-Provence",
                                 postalCode: "06000",
                                 addressCountry: "FR",
                             },
@@ -75,7 +75,7 @@ const page = () => {
             </Head>
             <LocalBusinessSchema />
             <main className="min-h-[calc(100vh-100px)]">
-                <div className="max-w-6xl mx-auto px-4 py-10">
+                <div className="max-w-6xl mx-auto px-4 sm:px-6 px-4 py-10">
                     {/* Contact Form Component */}
                     <ContactForm />
                 </div>

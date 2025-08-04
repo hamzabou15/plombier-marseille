@@ -7,12 +7,12 @@ export default function LocalBusinessSchema() {
   const updatedSchema = {
     ...schemaLocalBusiness,
     "@type": "Plumber",
-    name: "Plombier Toulon Expert",
-    image: "https://plombiertoulon-expert.fr/logo.png",
+    name: "Plombier Aix-En-Provence SOS",
+    image: "https://plombieraixenprovence-sos.fr/logo.png",
     telephone: "+334XXXXXXX",
     address: {
       ...schemaLocalBusiness.address,
-      addressLocality: "Toulon",
+      addressLocality: "Aix-En-Provence",
       addressRegion: "Var",
       postalCode: "83000",
       streetAddress: "123 Avenue de la République"
@@ -29,7 +29,7 @@ export default function LocalBusinessSchema() {
       }
     ],
     areaServed: [
-      "Toulon",
+      "Aix-En-Provence",
       "La Valette-du-Var",
       "La Garde",
       "Le Revest-les-Eaux",

@@ -126,5 +126,5 @@
 body {
   font-family: var(--font-montserrat, sans-serif);
   color: #333333;
-  background-color: #F2F5F5;
+  /* background-color: #F2F5F5; */
 }

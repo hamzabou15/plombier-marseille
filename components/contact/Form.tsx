@@ -11,23 +11,23 @@ const ContactForm = () => {
     return (
         <>
             <Head>
-                <title>Contact Plombier à Toulon – Demandez un devis gratuit</title>
+                <title>Contact Plombier à Aix-En-Provence – Demandez un devis gratuit</title>
                 <meta
                     name="description"
-                    content="Besoin d’un plombier à Toulon ? Contactez-nous dès maintenant pour une intervention rapide, un diagnostic ou une mise aux normes. Réponse garantie en moins de 24h."
+                    content="Besoin d’un plombier à Aix-En-Provence ? Contactez-nous dès maintenant pour une intervention rapide, un diagnostic ou une mise aux normes. Réponse garantie en moins de 24h."
                 />
             </Head>
 
             <section
-                id="contact-plombier-toulon"
-                aria-label="Formulaire de contact pour dépannage plomberie à Toulon"
+                id="contact-plombier-aixenprovence"
+                aria-label="Formulaire de contact pour dépannage plomberie à Aix-En-Provence"
                 className="w-full bg-white py-20 px-8 md:px-8"
             >
                 <div className="max-w-3xl mx-auto text-center mb-12">
                     <p className="text-[14px] font-semibold text-[#475565] uppercase tracking-[7px]">
                         Contact rapide
                     </p>
-                    <h2 className="text-[40px] font-bold tracking-[-1.5px] text-[#0f4c5c] max-lg:text-4xl max-md:text-3xl">
+                    <h2 className="text-[40px] font-bold tracking-[-1.5px] text-[#212121] max-lg:text-4xl max-md:text-3xl">
                         Demandez votre devis gratuit
                     </h2>
                     <p className="text-[16px] text-[#2E2937BF] mt-4 font-light">
@@ -42,12 +42,12 @@ const ContactForm = () => {
                 ) : (
                     <form
                         onSubmit={handleSubmit}
-                        className="max-w-3xl mx-auto flex flex-col gap-6 text-[#0f4c5c]"
+                        className="max-w-3xl mx-auto flex flex-col gap-6 text-[#212121]"
                     >
                         <input
                             type="hidden"
                             name="_subject"
-                            value="Nouvelle demande – Formulaire plombier Toulon"
+                            value="Nouvelle demande – Formulaire plombier Aix-En-Provence"
                         />
                         <div className="flex flex-col md:flex-row gap-6">
                             <input
@@ -87,7 +87,7 @@ const ContactForm = () => {
                         <div className="flex justify-center mt-4">
                             <button
                                 type="submit"
-                                className="mt-4 w-fit px-6 py-2 bg-[#0077B6] text-white font-semibold  hover:bg-[#005f87] transition col-span-2"
+                                className="mt-4 w-fit px-6 py-2 bg-[#E67E22] text-white font-semibold  hover:bg-[#005f87] transition col-span-2"
                             >
                                 Envoyer ma demande
                             </button>

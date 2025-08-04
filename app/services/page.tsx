@@ -4,37 +4,38 @@ import PlumbingIntro from '@/components/home/PlumberIntroSection'
 import LocalBusinessSchema from '@/components/SEO/LocalBusiness'
 import ContactSection from '@/components/services/ContactSection'
 import ServicesSection from '@/components/services/ServicesSection'
+import WhyChooseUs from '@/components/services/whyChooseUs'
 import Testimonials from '@/components/Testimonials'
 import { Metadata } from 'next'
 import Head from 'next/head'
 
 export const metadata: Metadata = {
-  title: "Services Plomberie Toulon │ Dépannage Urgence 24h/24 & Installation",
-  description: "Plombier expert à Toulon pour dépannage fuite d'eau, débouchage canalisation, remplacement chauffe-eau. ☎ +33 7 56 93 52 00 - Intervention sous 30 min dans tout Toulon et le Var.",
+  title: "Services Plomberie Aix-En-Provence │ Dépannage Urgence 24h/24 & Installation",
+  description: "Plombier expert à Aix-En-Provence pour dépannage fuite d'eau, débouchage canalisation, remplacement chauffe-eau. ☎ +33 7 56 93 52 00 - Intervention sous 30 min dans tout Aix-En-Provence et le Var.",
   keywords: [
-    "dépannage plomberie Toulon",
-    "urgence fuite d'eau Toulon",
-    "débouchage canalisation Toulon",
-    "plombier 24/7 Toulon",
-    "chauffe-eau Toulon",
-    "réparation plomberie Toulon",
+    "dépannage plomberie Aix-En-Provence",
+    "urgence fuite d'eau Aix-En-Provence",
+    "débouchage canalisation Aix-En-Provence",
+    "plombier 24/7 Aix-En-Provence",
+    "chauffe-eau Aix-En-Provence",
+    "réparation plomberie Aix-En-Provence",
     "artisan plombier Var",
-    "tarif plombier Toulon"
+    "tarif plombier Aix-En-Provence"
   ],
   alternates: {
-    canonical: "https://plombiertoulon-expert.fr/services"
+    canonical: "https://plombieraixenprovence-sos.fr/services"
   },
   openGraph: {
-    title: "Services Plomberie Toulon │ Dépannage Urgence 24h/24 & Installation",
-    description: "Plombier expert à Toulon pour toutes interventions urgentes : fuites, canalisation bouchée, chauffe-eau. Service rapide avec garantie.",
-    url: "https://plombiertoulon-expert.fr/services",
-    siteName: "Plombier Toulon Expert",
+    title: "Services Plomberie Aix-En-Provence │ Dépannage Urgence 24h/24 & Installation",
+    description: "Plombier expert à Aix-En-Provence pour toutes interventions urgentes : fuites, canalisation bouchée, chauffe-eau. Service rapide avec garantie.",
+    url: "https://plombieraixenprovence-sos.fr/services",
+    siteName: "Plombier Aix-En-Provence SOS",
     images: [
       {
-        url: "https://plombiertoulon-expert.fr/images/plombier-toulon-services.webp",
+        url: "https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence-services.webp",
         width: 1200,
         height: 630,
-        alt: "Services de plomberie à Toulon par Plombier Toulon Expert",
+        alt: "Services de plomberie à Aix-En-Provence par Plombier Aix-En-Provence SOS",
       },
     ],
     locale: "fr_FR",
@@ -52,50 +53,50 @@ const page = () => {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "ItemList",
-                            "name": "Services Plomberie Toulon",
-                            "description": "Liste complète des services de plomberie à Toulon",
+                            "name": "Services Plomberie Aix-En-Provence",
+                            "description": "Liste complète des services de plomberie à Aix-En-Provence",
                             "itemListElement": [
                                 {
                                     "@type": "ListItem",
                                     "position": 1,
-                                    "name": "Dépannage Plomberie Urgence Toulon",
-                                    "url": "https://plombiertoulon-expert.fr/services/depannage-plomberie",
-                                    "description": "Intervention 24h/24 pour fuites d'eau et canalisations bouchées à Toulon"
+                                    "name": "Dépannage Plomberie Urgence Aix-En-Provence",
+                                    "url": "https://plombieraixenprovence-sos.fr/services/depannage-plomberie",
+                                    "description": "Intervention 24h/24 pour fuites d'eau et canalisations bouchées à Aix-En-Provence"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 2,
-                                    "name": "Débouchage Canalisation Toulon",
-                                    "url": "https://plombiertoulon-expert.fr/services/debouchage-canalisation",
-                                    "description": "Solution rapide pour WC, évier et douche bouchés à Toulon"
+                                    "name": "Débouchage Canalisation Aix-En-Provence",
+                                    "url": "https://plombieraixenprovence-sos.fr/services/debouchage-canalisation",
+                                    "description": "Solution rapide pour WC, évier et douche bouchés à Aix-En-Provence"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 3,
-                                    "name": "Réparation Fuite d'Eau Toulon",
-                                    "url": "https://plombiertoulon-expert.fr/services/reparation-fuite-eau",
-                                    "description": "Détection sans casse et réparation de fuites à Toulon"
+                                    "name": "Réparation Fuite d'Eau Aix-En-Provence",
+                                    "url": "https://plombieraixenprovence-sos.fr/services/reparation-fuite-eau",
+                                    "description": "Détection sans casse et réparation de fuites à Aix-En-Provence"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 4,
-                                    "name": "Installation Chauffe-Eau Toulon",
-                                    "url": "https://plombiertoulon-expert.fr/services/installation-chauffe-eau",
-                                    "description": "Remplacement et pose de chauffe-eau à Toulon"
+                                    "name": "Installation Chauffe-Eau Aix-En-Provence",
+                                    "url": "https://plombieraixenprovence-sos.fr/services/installation-chauffe-eau",
+                                    "description": "Remplacement et pose de chauffe-eau à Aix-En-Provence"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 5,
-                                    "name": "Rénovation Salle de Bains Toulon",
-                                    "url": "https://plombiertoulon-expert.fr/services/renovation-salle-de-bains",
-                                    "description": "Transformation complète de salle de bains à Toulon"
+                                    "name": "Rénovation Salle de Bains Aix-En-Provence",
+                                    "url": "https://plombieraixenprovence-sos.fr/services/renovation-salle-de-bains",
+                                    "description": "Transformation complète de salle de bains à Aix-En-Provence"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 6,
-                                    "name": "Entretien Chaudière Toulon",
-                                    "url": "https://plombiertoulon-expert.fr/services/entretien-chaudiere",
-                                    "description": "Maintenance annuelle de chaudière à Toulon"
+                                    "name": "Entretien Chaudière Aix-En-Provence",
+                                    "url": "https://plombieraixenprovence-sos.fr/services/entretien-chaudiere",
+                                    "description": "Maintenance annuelle de chaudière à Aix-En-Provence"
                                 }
                             ]
                         })
@@ -104,12 +105,13 @@ const page = () => {
             </Head>
             <LocalBusinessSchema />
 
-            <main className="bg-white text-[#0077B6]">
+            <main className="bg-white text-[#E67E22]">
                 <HeroSection
-                    title='Services Plomberie à Toulon'
+                    title='Services Plomberie à Aix-En-Provence'
                 />
                 <PlumbingIntro />
                 <ServicesSection />
+                <WhyChooseUs/>
                 <ContactSection />
                 <Testimonials />
             </main>

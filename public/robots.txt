@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://plombiertoulon-expert.fr/sitemap.xml
+Sitemap: https://plombieraixenprovence-sos.fr/sitemap.xml

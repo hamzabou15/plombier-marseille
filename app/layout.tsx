@@ -15,28 +15,28 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Plombier à Toulon – Dépannage rapide et efficace | PlombierToulon Expert",
+  title: "Plombier à Aix-En-Provence – Dépannage rapide et efficace | PlombierAix-En-Provence SOS",
   description:
-    "Plombier professionnel à Toulon : dépannage en urgence, détection de fuites, débouchage, rénovation de salle de bains. Devis gratuit 7j/7 !",
+    "Plombier professionnel à Aix-En-Provence : dépannage en urgence, détection de fuites, débouchage, rénovation de salle de bains. Devis gratuit 7j/7 !",
   keywords: [
-    "plombier Toulon",
-    "urgence plomberie Toulon",
-    "chauffe-eau Toulon",
-    "débouchage canalisation Toulon",
-    "rénovation salle de bains Toulon",
+    "plombier Aix-En-Provence",
+    "urgence plomberie Aix-En-Provence",
+    "chauffe-eau Aix-En-Provence",
+    "débouchage canalisation Aix-En-Provence",
+    "rénovation salle de bains Aix-En-Provence",
   ],
   openGraph: {
-    title: "Plombier à Toulon – Dépannage rapide et efficace | PlombierToulon Expert",
+    title: "Plombier à Aix-En-Provence – Dépannage rapide et efficace | PlombierAix-En-Provence SOS",
     description:
-      "Interventions express à Toulon : fuite d’eau, débouchage, chauffe-eau, rénovation de salle de bains. Contactez un artisan local fiable.",
-    url: "https://plombiertoulon-expert.fr/",
-    siteName: "PlombierToulon Expert",
+      "Interventions express à Aix-En-Provence : fuite d’eau, débouchage, chauffe-eau, rénovation de salle de bains. Contactez un artisan local fiable.",
+    url: "https://plombieraixenprovence-sos.fr/",
+    siteName: "PlombierAix-En-Provence SOS",
     images: [
       {
-        url: "/images/plombier-toulon-hero.webp",
+        url: "/images/plombier-aixenprovence-hero.webp",
         width: 1200,
         height: 630,
-        alt: "Plombier professionnel à Toulon",
+        alt: "Plombier professionnel à Aix-En-Provence",
       },
     ],
     locale: "fr_FR",
@@ -56,7 +56,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className="antialiased bg-white text-[#00B4D8]">
+      <body className="antialiased bg-white text-[#212121]">
         <Header />
         <CTA />
         {children}

@@ -11,20 +11,20 @@ import type { Metadata } from "next";
 import LocalBusinessSchema from "@/components/SEO/LocalBusiness";
 
 export const metadata: Metadata = {
-  title: "Plombier Toulon │ Urgence 24h/24 - Artisan Certifié & Intervention Express",
-  description: "Plombier expert à Toulon pour dépannage immédiat 7j/7 : fuites d'eau, débouchage canalisation, chauffe-eau. ☎ +33 7 56 93 52 00 - Intervention rapide quartiers Toulon Centre, Mourillon, Pont-du-Las",
-  keywords: "plombier toulon, dépannage plomberie toulon, urgence plombier 24/7, débouchage canalisation toulon, fuite d'eau toulon, réparation chauffe-eau toulon, artisan plombier var",
+  title: "Plombier Aix-En-Provence │ Urgence 24h/24 - Artisan Certifié & Intervention Express",
+  description: "Plombier expert à Aix-En-Provence pour dépannage immédiat 7j/7 : fuites d'eau, débouchage canalisation, chauffe-eau. ☎ +33 7 56 93 52 00 - Intervention rapide quartiers Aix-En-Provence Centre, Mourillon, Pont-du-Las",
+  keywords: "plombier aixenprovence, dépannage plomberie aixenprovence, urgence plombier 24/7, débouchage canalisation aixenprovence, fuite d'eau aixenprovence, réparation chauffe-eau aixenprovence, artisan plombier var",
   openGraph: {
-    title: "Plombier Toulon Expert │ Urgence 24h/24 - Devis Gratuit & Intervention Rapide",
-    description: "Plombier certifié à Toulon pour interventions express 7j/7. Fuites, canalisations, chauffe-eau - Service garanti avec transparence tarifaire",
-    url: "https://plombiertoulon-expert.fr",
-    siteName: "Plombier Toulon Expert",
+    title: "Plombier Aix-En-Provence SOS │ Urgence 24h/24 - Devis Gratuit & Intervention Rapide",
+    description: "Plombier certifié à Aix-En-Provence pour interventions express 7j/7. Fuites, canalisations, chauffe-eau - Service garanti avec transparence tarifaire",
+    url: "https://plombieraixenprovence-sos.fr",
+    siteName: "Plombier Aix-En-Provence SOS",
     images: [
       {
-        url: "https://plombiertoulon-expert.fr/images/plombier-toulon-hero.webp",
+        url: "https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence-hero.webp",
         width: 1200,
         height: 630,
-        alt: "Plombier professionnel en intervention d'urgence à Toulon",
+        alt: "Plombier professionnel en intervention d'urgence à Aix-En-Provence",
       },
     ],
     locale: "fr_FR",
@@ -32,12 +32,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Plombier Toulon │ Urgence 24h/24 - Artisan Local & Intervention Express",
+    title: "Plombier Aix-En-Provence │ Urgence 24h/24 - Artisan Local & Intervention Express",
     description: "☎ +33 756 93 52 00 - Plombier expert pour dépannage immédiat dans le Var. Fuites, canalisations, chauffe-eau - Service 24/7 avec garantie",
-    images: ["https://plombiertoulon-expert.fr/images/plombier-toulon-hero.webp"],
+    images: ["https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence-hero.webp"],
   },
   alternates: {
-    canonical: "https://plombiertoulon-expert.fr",
+    canonical: "https://plombieraixenprovence-sos.fr",
   },
 };
 
@@ -45,17 +45,19 @@ export default function Home() {
   return (
     <>
       <LocalBusinessSchema />
-      <main className="font-sans bg-white text-[#0f4c5c]">
+      <main className="font-sans bg-white text-[#212121]">
         <Hero />
         <section className="bg-white">
           <PlumbingIntro />
         </section>
         <ServiceSection />
-        <ProjectSection />
         <InfoSection />
+        <ProjectSection />
         <ContactSection />
         <StatsCard />
-        <Testimonials />
+        <section className="w-full bg-gradient-to-b from-[#fcf7f0] to-[#f5e6cc]">
+          <Testimonials />
+        </section>
         <ProductGallery />
       </main>
     </>
