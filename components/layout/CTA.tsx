@@ -17,7 +17,7 @@ const CTA = () => {
                     <span className="flex items-center">
                         <MdLocalPhone className="text-white text-3xl" />
                         <span className="transition-all duration-300 opacity-0 max-w-0 group-hover:opacity-100 group-hover:max-w-[200px] ml-2
-                                max-md:opacity-1 max-md:max-w-[100%] max-md:ml-0
+                                max-md:opacity-100 max-md:max-w-[100%] max-md:ml-0
                             ">
                             Appelez maintenant
                         </span>
