@@ -7,7 +7,7 @@ import { Button } from "../ui/button";
 
 export default function Intro() {
   return (
-    <section className="py-20 max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col lg:flex-row items-center gap-16">
+    <section className="py-20 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex flex-col lg:flex-row items-center gap-16">
       <div className="lg:w-1/2 flex flex-col gap-6">
         <p className="uppercase text-sm font-semibold tracking-widest text-gray-600">
           Plombier Aix-En-Provence - Artisan Local
@@ -16,7 +16,7 @@ export default function Intro() {
           Notre Histoire : Plombier SOS à Aix-En-Provence depuis 2010
         </h2>
         <p className="text-lg text-gray-700 max-w-lg">
-          Fondée en 2010 par Jean Dupont, <strong>Plombier Aix-En-Provence SOS</strong> est devenue une référence en plomberie d&apos;urgence dans le Var. Notre mission : fournir un service rapide et professionnel aux habitants de Aix-En-Provence et ses environs.
+          Fondée en 2010 par Jean Dupont, <strong>Plombier Aix-En-Provence SOS</strong> est devenue une référence en plomberie d&apos;urgence dans tout Aix-en-Provence et le Var. Notre mission : fournir un service rapide et professionnel aux habitants de Aix-en-Provence et ses environs, avec des interventions dans tous les quartiers : Centre-ville, Mourillon, Pont-du-Las, Saint-Jean du Var, La Rode.
         </p>
 
         <ul className="space-y-3 text-gray-700">
@@ -56,23 +56,23 @@ export default function Intro() {
         <div className="relative h-72 rounded-xl overflow-hidden shadow-lg border border-gray-100">
           <Image
             src="/images/chauffeau.webp"
-            alt="Remplacement de chauffe-eau par plombier expert à Aix-En-Provence"
+            alt="Remplacement de chauffe-eau par plombier expert à Aix-En-Provence Centre"
             fill
             className="object-cover"
           />
           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-3 text-center text-sm rounded-b-xl">
-            Installation chauffe-eau à Aix-En-Provence
+            Installation chauffe-eau à Aix-En-Provence Centre
           </div>
         </div>
         <div className="relative h-72 rounded-xl overflow-hidden shadow-lg border border-gray-100 mt-12 sm:mt-0">
           <Image
             src="/images/plombier-aixenprovence-expert.webp"
-            alt="Plombier professionnel réparant une fuite d'eau à Aix-En-Provence"
+            alt="Plombier professionnel réparant une fuite d'eau à Quartier Mourillon Aix-En-Provence"
             fill
             className="object-cover"
           />
           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-3 text-center text-sm rounded-b-xl">
-            Dépannage fuite d&apos;eau à Aix-En-Provence
+            Dépannage fuite d&apos;eau à Quartier Mourillon
           </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ import { useSwipeable } from "react-swipeable";
 const testimonials = [
   {
     name: "Nathalie Dupont",
-    location: "Aix-En-Provence Centre (06)",
+    location: "Centre-ville, Aix-en-Provence",
     image: "/icons/femme1.webp",
     quote:
       "Intervention rapide pour détecter une fuite d'eau encastrée à Aix-En-Provence Centre. Réponse en urgence 24h/24. Service professionnel, je recommande vivement !",
@@ -16,18 +16,18 @@ const testimonials = [
   },
   {
     name: "Olivier Martin",
-    location: "Aix-En-Provence Ouest (06)",
+    location: "Quartier Ouest, Aix-en-Provence",
     image: "/icons/homme1.webp",
     quote:
-      "Très professionnel, dépannage en urgence sans casse à Aix-En-Provence Ouest. Détection de fuite impeccable, prix raisonnables. Service de plombier recommandé.",
+      "Très professionnel, dépannage en urgence sans casse. Détection de fuite impeccable, prix raisonnables. Service de plombier recommandé pour Aix-en-Provence.",
     color: "teal",
   },
   {
     name: "Claire Lefèvre",
-    location: "Aix-En-Provence Est (06)",
+    location: "Quartier Est, Aix-en-Provence",
     image: "/icons/femme2.webp",
     quote:
-      "Intervention en urgence, détection rapide de la fuite d'eau. Aucun dégât, travail soigné. Plombier expérimenté et fiable à Aix-En-Provence Est.",
+      "Intervention en urgence à Aix-en-Provence Est, détection rapide de la fuite d'eau. Aucun dégât, travail soigné. Plombier expérimenté et fiable.",
     color: "teal",
   },
   {
@@ -35,39 +35,23 @@ const testimonials = [
     location: "La Garde (83)",
     image: "/icons/homme2.webp",
     quote:
-      "Un service impeccable : diagnostic précis et réparation sans délais. Le technicien a été clair, efficace et très aimable. Je suis rassuré.",
+      "Un service impeccable à La Garde : diagnostic précis et réparation sans délais. Le technicien a été clair, efficace et très aimable. Je suis rassuré.",
     color: "black",
   },
   {
     name: "Sophie Bernard",
-    location: "Hyères (83)",
+    location: "Mourillon, Aix-en-Provence",
     image: "/icons/femme3.webp",
     quote:
-      "Fuite détectée en un rien de temps, sans déranger la structure. Excellent suivi et communication. Je conseille fortement pour les urgences.",
+      "Fuite détectée en un rien de temps dans mon quartier de Mourillon, sans déranger la structure. Excellent suivi et communication. Je conseille fortement.",
     color: "teal",
   },
   {
     name: "Marc Petit",
-    location: "Le Pradet (83)",
+    location: "Pont-du-Las, Aix-en-Provence",
     image: "/icons/homme3.webp",
     quote:
-      "Résolu rapidement, prix transparent et service très réactif. J'ai pu reprendre une vie normale rapidement, merci pour votre professionnalisme.",
-    color: "black",
-  },
-  {
-    name: "Isabelle Roy",
-    location: "Six-Fours-les-Plages (83)",
-    image: "/icons/femmme4.webp",
-    quote:
-      "Efficace, courtois, et surtout sans surprise. La fuite était cachée et pourtant identifiée sans casse. Très satisfaite du résultat.",
-    color: "teal",
-  },
-  {
-    name: "Antoine Moreau",
-    location: "Ollioules (83)",
-    image: "/icons/homme4.webp",
-    quote:
-      "Intervention de nuit, équipe hyper réactive. Aucune détérioration et explication claire de la panne. On sent l'expérience.",
+      "Résolu rapidement dans le quartier Pont-du-Las, prix transparent et service très réactif. J'ai pu reprendre une vie normale rapidement, merci!",
     color: "black",
   },
 ];
@@ -106,13 +90,13 @@ export default function Testimonials() {
 
   return (
     <section
-      className="w-full px-4 sm:px-6 py-12 xl:max-w-6xl mx-auto"
+      className="w-full px-4 sm:px-6 py-12 xl:max-w-7xl mx-auto"
       aria-label="Témoignages clients"
     >
       <div className="text-center mb-12">
         <p className="text-sm tracking-widest text-[#555555] uppercase">Avis Clients</p>
         <h2 className="text-4xl font-bold text-[#2f2f2f] mt-2 max-xl:text-[28px]">
-          Ce que disent nos clients de Aix-En-Provence et ses environs
+          Ce que disent nos clients de Aix-en-Provence et ses environs
         </h2>
       </div>
 
@@ -157,7 +141,6 @@ export default function Testimonials() {
               <div>
                 <p className="font-semibold text-[#2f2f2f]">{t.name}</p>
                 <p className="text-sm text-[#6b7280]">{t.location}</p>
-                {/* Étoiles jaunes */}
                 <div className="flex mt-1">
                   {Array.from({ length: 5 }).map((_, starIdx) => (
                     <Star

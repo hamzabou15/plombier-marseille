@@ -1,4 +1,3 @@
-// app/services/page.tsx
 import HeroSection from '@/components/HeroSection'
 import PlumbingIntro from '@/components/home/PlumberIntroSection'
 import LocalBusinessSchema from '@/components/SEO/LocalBusiness'
@@ -11,7 +10,7 @@ import Head from 'next/head'
 
 export const metadata: Metadata = {
   title: "Services Plomberie Aix-En-Provence │ Dépannage Urgence 24h/24 & Installation",
-  description: "Plombier expert à Aix-En-Provence pour dépannage fuite d'eau, débouchage canalisation, remplacement chauffe-eau. ☎ +33 7 56 93 52 00 - Intervention sous 30 min dans tout Aix-En-Provence et le Var.",
+  description: "Plombier expert à Aix-En-Provence pour dépannage fuite d'eau, débouchage canalisation, remplacement chauffe-eau. ☎ 07 56 93 52 00 - Intervention sous 30 min dans tout Aix-En-Provence et le Var.",
   keywords: [
     "dépannage plomberie Aix-En-Provence",
     "urgence fuite d'eau Aix-En-Provence",
@@ -20,14 +19,17 @@ export const metadata: Metadata = {
     "chauffe-eau Aix-En-Provence",
     "réparation plomberie Aix-En-Provence",
     "artisan plombier Var",
-    "tarif plombier Aix-En-Provence"
+    "tarif plombier Aix-En-Provence",
+    "plombier quartier centre Aix-En-Provence",
+    "plombier Mourillon Aix-En-Provence",
+    "plombier Pont-du-Las Aix-En-Provence"
   ],
   alternates: {
     canonical: "https://plombieraixenprovence-sos.fr/services"
   },
   openGraph: {
     title: "Services Plomberie Aix-En-Provence │ Dépannage Urgence 24h/24 & Installation",
-    description: "Plombier expert à Aix-En-Provence pour toutes interventions urgentes : fuites, canalisation bouchée, chauffe-eau. Service rapide avec garantie.",
+    description: "Plombier expert à Aix-En-Provence pour toutes interventions urgentes : fuites, canalisation bouchée, chauffe-eau. Service rapide avec garantie dans tout Aix-en-Provence et le Var.",
     url: "https://plombieraixenprovence-sos.fr/services",
     siteName: "Plombier Aix-En-Provence SOS",
     images: [
@@ -61,14 +63,14 @@ const page = () => {
                                     "position": 1,
                                     "name": "Dépannage Plomberie Urgence Aix-En-Provence",
                                     "url": "https://plombieraixenprovence-sos.fr/services/depannage-plomberie",
-                                    "description": "Intervention 24h/24 pour fuites d'eau et canalisations bouchées à Aix-En-Provence"
+                                    "description": "Intervention 24h/24 pour fuites d'eau et canalisations bouchées à Aix-En-Provence Centre, Mourillon, Pont-du-Las"
                                 },
                                 {
                                     "@type": "ListItem",
                                     "position": 2,
                                     "name": "Débouchage Canalisation Aix-En-Provence",
                                     "url": "https://plombieraixenprovence-sos.fr/services/debouchage-canalisation",
-                                    "description": "Solution rapide pour WC, évier et douche bouchés à Aix-En-Provence"
+                                    "description": "Solution rapide pour WC, évier et douche bouchés à Aix-En-Provence et ses environs"
                                 },
                                 {
                                     "@type": "ListItem",
@@ -107,7 +109,7 @@ const page = () => {
 
             <main className="bg-white text-[#E67E22]">
                 <HeroSection
-                    title='Services Plomberie à Aix-En-Provence'
+                    title='Services Plomberie à Aix-En-Provence et ses Quartiers'
                 />
                 <PlumbingIntro />
                 <ServicesSection />

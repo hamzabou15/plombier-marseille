@@ -1,4 +1,3 @@
-// components/services/ServicesSection.tsx
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -8,44 +7,44 @@ import { Check } from "lucide-react";
 const services = [
   {
     title: "Dépannage Plomberie Urgence 24h/24",
-    description: "Intervention express à Aix-En-Provence pour fuites d'eau, canalisations bouchées et panne de chauffe-eau. Service garanti avec délai moyen de 30 minutes.",
+    description: "Intervention express à Aix-En-Provence Centre, Mourillon, Pont-du-Las pour fuites d'eau, canalisations bouchées et panne de chauffe-eau. Service garanti avec délai moyen de 30 minutes.",
     image: "/images/plombier-sur-aixenprovence-fuite-depannage.webp",
-    alt: "Plombier en intervention urgente à Aix-En-Provence pour dépannage de plomberie",
+    alt: "Plombier en intervention urgente à Quartier Centre Aix-En-Provence pour dépannage de plomberie",
     link: "/services/depannage-plomberie-urgence-aixenprovence"
   },
   {
     title: "Débouchage Canalisation Express",
-    description: "Solution rapide pour canalisations bouchées à Aix-En-Provence. WC, évier, douche - Intervention en moins d'1h avec garantie de résultat.",
+    description: "Solution rapide pour canalisations bouchées à Aix-En-Provence. WC, évier, douche - Intervention en moins d'1h dans les quartiers Saint-Jean du Var, La Rode, Le Pont Neuf.",
     image: "/images/debouchage-canalisation-aixenprovence.webp",
     alt: "Technicien plombier débouche une canalisation à Aix-En-Provence",
     link: "/services/debouchage-canalisation-aixenprovence"
   },
   {
     title: "Réparation Fuite d'Eau Sans Casse",
-    description: "Détection précise et réparation de fuites à Aix-En-Provence sans endommager vos murs ou sols. Technologie infrarouge professionnelle.",
+    description: "Détection précise et réparation de fuites à Aix-En-Provence sans endommager vos murs ou sols. Technologie infrarouge professionnelle disponible 24h/24.",
     image: "/images/reparation-fuite-eau-aixenprovence.webp",
-    alt: "Réparation de fuite d'eau par plombier expert à Aix-En-Provence",
+    alt: "Réparation de fuite d'eau par plombier expert à Quartier Mourillon Aix-En-Provence",
     link: "/services/reparation-fuite-eau-aixenprovence"
   },
   {
     title: "Installation Chauffe-Eau Aix-En-Provence",
-    description: "Remplacement et pose de chauffe-eau à Aix-En-Provence (électrique, thermodynamique, gaz). Devis gratuit et installation sous 24h.",
+    description: "Remplacement et pose de chauffe-eau à Aix-En-Provence (électrique, thermodynamique, gaz). Devis gratuit et installation sous 24h dans tout Aix-en-Provence.",
     image: "/images/chauffeau.webp",
-    alt: "Installation d'un chauffe-eau par plombier à Aix-En-Provence",
+    alt: "Installation d'un chauffe-eau par plombier à Quartier Pont-du-Las Aix-En-Provence",
     link: "/services/installation-chauffe-eau-aixenprovence"
   },
   {
     title: "Rénovation Salle de Bains Clé en Main",
-    description: "Transformation complète de votre salle de bains à Aix-En-Provence. Du design à la réalisation, avec garantie décennale.",
+    description: "Transformation complète de votre salle de bains à Aix-En-Provence Centre, Mourillon, Pont-du-Las. Du design à la réalisation, avec garantie décennale.",
     image: "/images/salle-de-bain.webp",
-    alt: "Rénovation de salle de bains par artisan plombier à Aix-En-Provence",
+    alt: "Rénovation de salle de bains par artisan plombier à Quartier Centre Aix-En-Provence",
     link: "/services/renovation-salle-de-bains-aixenprovence"
   },
   {
     title: "Entretien Annuel Chaudière",
-    description: "Contrat d'entretien pour chaudière à Aix-En-Provence. Détartrage, vérification des systèmes de sécurité et optimisation des performances.",
+    description: "Contrat d'entretien pour chaudière à Aix-En-Provence et le Var. Détartrage, vérification des systèmes de sécurité et optimisation des performances.",
     image: "/images/remplacement-chaudiere-aixenprovence.webp",
-    alt: "Entretien de chaudière par technicien qualifié à Aix-En-Provence",
+    alt: "Entretien de chaudière par technicien qualifié à Quartier La Rode Aix-En-Provence",
     link: "/services/entretien-chaudiere-aixenprovence"
   }
 ];
@@ -56,15 +55,15 @@ export default function ServicesSection() {
       id="services"
       className="w-full py-24 bg-white text-center flex flex-col items-center px-6 sm:px-10 lg:px-16"
     >
-      <p className="text-sm max-md:text-[13px] font-semibold text-gray-600 tracking-widest uppercase max-w-6xl text-center mb-3">
+      <p className="text-sm max-md:text-[13px] font-semibold text-gray-600 tracking-widest uppercase max-w-7xl text-center mb-3">
         Plomberie – Chauffage – Climatisation à Aix-En-Provence
       </p>
 
-      <h2 className="text-4xl max-sm:text-3xl font-extrabold text-[#212121] mb-16 max-w-6xl text-center">
+      <h2 className="text-4xl max-sm:text-3xl font-extrabold text-[#212121] mb-16 max-w-7xl text-center">
         Nos services de plomberie à Aix-En-Provence et ses environs
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-7xl mx-auto">
         {services.map((service, i) => (
           <div
             key={i}
@@ -91,7 +90,7 @@ export default function ServicesSection() {
               className="mt-auto"
             >
               <Button size="lg" variant="submit" className="bg-[#E67E22] hover:bg-[#d68400] text-white font-semibold shadow-lg transition">
-                Détails & tarifs
+                Détails 
               </Button>
             </Link>
           </div>
@@ -106,30 +105,29 @@ export default function ServicesSection() {
           <li className="flex items-start">
             <Check className="w-6 h-6 text-[#E67E22] mt-1 mr-3 flex-shrink-0" />
             <span className="text-lg font-semibold">
-              Plombiers certifiés avec 10+ ans d&apos;expérience
+              Plombiers certifiés avec 12+ ans d&apos;expérience à Aix-en-Provence
             </span>
           </li>
           <li className="flex items-start">
             <Check className="w-6 h-6 text-[#E67E22] mt-1 mr-3 flex-shrink-0" />
             <span className="text-lg font-semibold">
-              Intervention en moins de 30 minutes en urgence
+              Intervention en moins de 30 minutes dans les quartiers centraux
             </span>
           </li>
           <li className="flex items-start">
             <Check className="w-6 h-6 text-[#E67E22] mt-1 mr-3 flex-shrink-0" />
             <span className="text-lg font-semibold">
-              Devis gratuit et transparence tarifaire
+              Devis gratuit et transparence tarifaire sans surprise
             </span>
           </li>
           <li className="flex items-start">
             <Check className="w-6 h-6 text-[#E67E22] mt-1 mr-3 flex-shrink-0" />
             <span className="text-lg font-semibold">
-              Garantie décennale sur tous nos travaux
+              Garantie décennale sur tous nos travaux dans le Var
             </span>
           </li>
         </ul>
       </div>
     </section>
-
   );
 }

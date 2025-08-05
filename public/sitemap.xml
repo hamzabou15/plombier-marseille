@@ -3,61 +3,66 @@
   <!-- Page d'accueil -->
   <url>
     <loc>https://plombieraixenprovence-sos.fr/</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <priority>1.0</priority>
   </url>
 
   <!-- Pages principales -->
   <url>
     <loc>https://plombieraixenprovence-sos.fr/services</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://plombieraixenprovence-sos.fr/contact</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://plombieraixenprovence-sos.fr/a-propos</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <priority>0.6</priority>
   </url>
 
   <!-- Pages de services -->
   <url>
     <loc>https://plombieraixenprovence-sos.fr/services/depannage-plomberie-urgence-aixenprovence</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://plombieraixenprovence-sos.fr/services/debouchage-canalisation-aixenprovence</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://plombieraixenprovence-sos.fr/services/eparation-fuite-eau-aixenprovence</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://plombieraixenprovence-sos.fr/services/installation-chauffe-eau-aixenprovence</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://plombieraixenprovence-sos.fr/services/renovation-salle-de-bains-aixenprovence</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://plombieraixenprovence-sos.fr/services/entretien-chaudiere-aixenprovence</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://plombieraixenprovence-sos.fr/services/installation-chauffe-eau</loc>
-    <lastmod>2025-07-19</lastmod>
+    <lastmod>2025-08-05</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://plombieraixenprovence-sos.fr/services/installation-pompe-chaleur-aixenprovence</loc>
+    <lastmod>2025-08-05</lastmod>
     <priority>1.0</priority>
   </url>
 </urlset>

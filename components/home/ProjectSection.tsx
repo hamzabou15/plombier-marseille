@@ -12,34 +12,34 @@ interface Project {
 }
 const projects: Project[] = [
     {
-        title: "Débouchage canalisation cuisine - Aix-En-Provence Centre",
+        title: "Débouchage canalisation cuisine - Centre-ville",
         category: "Intervention express sous 1h",
         image: "/images/salle-de-bain.webp",
-        alt: "Débouchage canalisation cuisine par plombier urgence Aix-En-Provence",
+        alt: "Débouchage canalisation cuisine par plombier urgence Centre-ville Aix-en-Provence",
     },
     {
-        title: "Remplacement chauffe-eau - La Bocca",
+        title: "Remplacement chauffe-eau - Quartier Mourillon",
         category: "Installation en 2h avec garantie",
         image: "/images/entretien-de-chaudiere-a-aixenprovence.webp",
-        alt: "Remplacement chauffe-eau par plombier Aix-En-Provence",
+        alt: "Remplacement chauffe-eau par plombier quartier Mourillon Aix-en-Provence",
     },
     {
-        title: "Réparation fuite murale - Le Suquet",
+        title: "Réparation fuite murale - Saint-Jean du Var",
         category: "Détection sans casse",
         image: "/images/Reparation-de-fuite-eau.webp",
-        alt: "Réparation fuite murale à Aix-En-Provence par expert plomberie",
+        alt: "Réparation fuite murale à Saint-Jean du Var par expert plomberie Aix-en-Provence",
     },
     {
-        title: "Détection fuite enterrée - La Croisette",
+        title: "Détection fuite enterrée - La Rode",
         category: "Technologie non destructive",
         image: "/images/Inspection-de-canalisation-pour-fuite-enterrer.webp",
-        alt: "Détection fuite canalisation enterrée à Aix-En-Provence",
+        alt: "Détection fuite canalisation enterrée à La Rode Aix-en-Provence",
     },
     {
-        title: "Rénovation salle de bain - Californie",
+        title: "Rénovation salle de bain - Pont-du-Las",
         category: "Travaux clé en main",
         image: "/images/Installations-de-canalisations-habiles.webp",
-        alt: "Rénovation salle de bain par plombier Aix-En-Provence",
+        alt: "Rénovation salle de bain par plombier Pont-du-Las Aix-en-Provence",
     },
 ];
 
@@ -74,7 +74,7 @@ export default function ProjectSection() {
 
     return (
         <section className="bg-[#f7f9fa] px-16 max-md:px-6 py-16 mx-auto max-sm:pex-5">
-            <div className="max-w-6xl mx-auto  mb-10">
+            <div className="max-w-7xl mx-auto  mb-10">
                 <div className="flex justify-between items-center mb-6">
                     <div className="flex flex-col gap-4">
                         <p className="uppercase text-sm tracking-widest text-gray-500 font-medium">

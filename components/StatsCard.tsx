@@ -2,14 +2,13 @@
 
 import { useEffect, useState, useRef } from 'react'
 import { motion } from 'framer-motion'
-import {  CheckCircle , LocationEdit, ToolCase } from 'lucide-react'
-import { FaFaucet } from 'react-icons/fa'
+import {  CheckCircle , MapPin, Users, Wrench } from 'lucide-react'
 
 const stats = [
   {
     value: 920,
     label: 'Interventions plomberie réalisées à Aix-En-Provence',
-    icon: FaFaucet,
+    icon: Wrench,
     color: 'text-[#E67E22]',
   },
   {
@@ -21,13 +20,13 @@ const stats = [
   {
     value: 25,
     label: 'Plombiers experts qualifiés à votre service',
-    icon: ToolCase,
+    icon: Users,
     color: 'text-[#3b82f6]',
   },
   {
-    value: 3,
+    value: 12,
     label: 'Quartiers et villes desservis autour de Aix-En-Provence',
-    icon: LocationEdit,
+    icon: MapPin,
     color: 'text-[#f59e0b]',
   },
 ]

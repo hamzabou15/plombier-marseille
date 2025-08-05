@@ -18,63 +18,71 @@ import { services } from "@/lib/service";
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-
-
     return (
-        <header className="sticky top-0 z-50 bg-white border-b shadow-sm">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 px-16 max-md:px-6 pl-0 py-3 flex items-center justify-between">
-                <Link href={"/"}
-                    className="max-md:hidden"
-
-                >
+        <header className="sticky top-0 z-50 bg-white border-b border-[#e8dfd6] shadow-sm">
+            <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
+                {/* Logo Desktop */}
+                <Link href="/" className="hidden md:block">
                     <Image
-                        src="/images/logo-plombier-aixenprovence-expert.svg"
+                        src="/images/logo-plombier-aixenprovence-expert.webp"
                         alt="Logo Plombier Aix-En-Provence SOS"
                         width={200}
                         height={50}
+                        className="h-[50px] w-[140px]"
                     />
                 </Link>
-                <Link href={"/"}
-                    className="md:hidden"
 
-                >
-
+                {/* Logo Mobile */}
+                <Link href="/" className="md:hidden">
                     <Image
-                        src="/images/logo-plombier-aixenprovence-expert.svg"
+                        src="/images/logo-plombier-aixenprovence-expert.webp"
                         alt="Logo Plombier Aix-En-Provence SOS"
                         width={150}
                         height={50}
+                        className="h-[50px] w-[140px]"
+
+
                     />
                 </Link>
 
+                {/* Mobile menu button */}
                 <div className="md:hidden">
-                    <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-                        <Menu className="text-[#E67E22] w-6 h-6" />
+                    <button
+                        onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                        aria-label="Toggle menu"
+                        className="text-[#E67E22] focus:outline-none focus:ring-2 focus:ring-[#E67E22] rounded"
+                    >
+                        <Menu className="w-6 h-6" />
                     </button>
                 </div>
 
+                {/* Desktop Navigation */}
                 <NavigationMenu className="hidden md:flex">
-                    <NavigationMenuList className="flex gap-6 text-sm font-medium text-[#212121]">
+                    <NavigationMenuList className="flex gap-8 text-sm font-medium text-[#2f2f2f]">
                         <NavigationMenuItem>
-                            <NavigationMenuLink asChild className="hover:text-[#E67E22] transition">
+                            <NavigationMenuLink
+                                asChild
+                                className="hover:text-[#E67E22] transition-colors duration-200"
+                            >
                                 <Link href="/">Accueil</Link>
                             </NavigationMenuLink>
                         </NavigationMenuItem>
 
                         <NavigationMenuItem>
-                            <NavigationMenuLink asChild className="hover:text-[#E67E22] transition mt-2">
-                                <NavigationMenuTrigger className="hover:text-[#E67E22]">
-                                    <Link href="/services">Services</Link>
-                                </NavigationMenuTrigger>
-                            </NavigationMenuLink>
+                            <NavigationMenuTrigger className="hover:text-[#E67E22] transition-colors duration-200">
+                                <Link href={"/services"}>  Services</Link>
+                            </NavigationMenuTrigger>
 
-                            <NavigationMenuContent className="bg-[#E67E22] text-white rounded-sm shadow-lg p-4 grid gap-2" style={{ width: "300px" }}>
+                            <NavigationMenuContent
+                                className="bg-[#E67E22] text-white rounded-md shadow-lg p-4 grid gap-2"
+                                style={{ width: "300px" }}
+                            >
                                 {services.map((item) => (
                                     <NavigationMenuLink
                                         key={item.link}
                                         asChild
                                         className={cn(
-                                            "block px-3 py-2 text-sm hover:bg-[#8ac2da] hover:text-white transition rounded-sm"
+                                            "block px-3 py-2 text-sm rounded-md hover:bg-[#3d2d20] hover:text-white transition-colors"
                                         )}
                                     >
                                         <Link href={item.link}>{item.title}</Link>
@@ -84,22 +92,32 @@ export default function Header() {
                         </NavigationMenuItem>
 
                         <NavigationMenuItem>
-                            <NavigationMenuLink asChild className="hover:text-[#E67E22] transition">
+                            <NavigationMenuLink
+                                asChild
+                                className="hover:text-[#E67E22] transition-colors duration-200"
+                            >
                                 <Link href="/a-propos">À propos</Link>
                             </NavigationMenuLink>
                         </NavigationMenuItem>
 
                         <NavigationMenuItem>
-                            <NavigationMenuLink asChild className="hover:text-[#E67E22] transition">
+                            <NavigationMenuLink
+                                asChild
+                                className="hover:text-[#E67E22] transition-colors duration-200"
+                            >
                                 <Link href="/contact">Contact</Link>
                             </NavigationMenuLink>
                         </NavigationMenuItem>
                     </NavigationMenuList>
                 </NavigationMenu>
 
+                {/* Phone contact desktop */}
                 <div className="hidden md:flex items-center gap-2">
-                    <Phone className="w-4 h-4 text-[#E67E22]" />
-                    <a href="tel:+33693788807" className="text-sm text-[#E67E22] font-medium">
+                    <Phone className="w-5 h-5 text-[#E67E22]" />
+                    <a
+                        href="tel:+33756935200"
+                        className="text-sm text-[#E67E22] font-semibold"
+                    >
                         +33 7 56 93 52 00
                     </a>
                 </div>
@@ -107,16 +125,24 @@ export default function Header() {
 
             {/* MOBILE MENU */}
             {mobileMenuOpen && (
-                <div className="md:hidden bg-white border-t text-sm font-medium px-4 py-4 space-y-3">
-                    <Link href="/" onClick={() => setMobileMenuOpen(false)} className="block text-[#212121] hover:text-[#E67E22]">Accueil</Link>
+                <div className="md:hidden bg-white border-t border-[#e8dfd6] text-sm font-medium px-6 py-4 space-y-4">
+                    <Link
+                        href="/"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="block text-[#2f2f2f] hover:text-[#E67E22] transition-colors duration-200"
+                    >
+                        Accueil
+                    </Link>
 
                     <details className="group">
-                        <summary className="cursor-pointer text-[##edeff5] hover:text-[#E67E22]">Services</summary>
+                        <summary className="cursor-pointer text-[#2f2f2f] hover:text-[#E67E22] transition-colors duration-200">
+                            Services
+                        </summary>
                         <div className="mt-2 pl-4 space-y-2">
                             <Link
                                 href="/services"
                                 onClick={() => setMobileMenuOpen(false)}
-                                className="block text-[#E67E22] hover:text-[#E67E22]"
+                                className="block text-[#E67E22]"
                             >
                                 Tous Les Services
                             </Link>
@@ -125,7 +151,7 @@ export default function Header() {
                                     key={item.link}
                                     href={item.link}
                                     onClick={() => setMobileMenuOpen(false)}
-                                    className="block text-[#212121] hover:text-[#E67E22]"
+                                    className="block text-[#2f2f2f] hover:text-[#E67E22] transition-colors duration-200"
                                 >
                                     {item.title}
                                 </Link>
@@ -133,18 +159,33 @@ export default function Header() {
                         </div>
                     </details>
 
-                    <Link href="/a-propos" onClick={() => setMobileMenuOpen(false)} className="block text-[#212121] hover:text-[#E67E22]">À propos</Link>
-                    <Link href="/contact" onClick={() => setMobileMenuOpen(false)} className="block text-[#212121] hover:text-[#E67E22]">Contact</Link>
+                    <Link
+                        href="/a-propos"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="block text-[#2f2f2f] hover:text-[#E67E22] transition-colors duration-200"
+                    >
+                        À propos
+                    </Link>
 
-                    <div className="flex items-center gap-2 pt-2 border-t">
-                        <Phone className="w-4 h-4 text-[#E67E22]" />
-                        <a href="tel:+33693788807" className="text-sm text-[#E67E22] font-medium">
+                    <Link
+                        href="/contact"
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="block text-[#2f2f2f] hover:text-[#E67E22] transition-colors duration-200"
+                    >
+                        Contact
+                    </Link>
+
+                    <div className="flex items-center gap-2 pt-4 border-t border-[#e8dfd6]">
+                        <Phone className="w-5 h-5 text-[#E67E22]" />
+                        <a
+                            href="tel:+33756935200"
+                            className="text-sm text-[#E67E22] font-semibold"
+                        >
                             +33 7 56 93 52 00
                         </a>
                     </div>
                 </div>
             )}
-
         </header>
     );
 }

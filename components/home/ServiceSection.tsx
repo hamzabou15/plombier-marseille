@@ -44,7 +44,7 @@ const services = [
 export default function ServiceSection() {
   return (
     <section id="services" className="bg-white py-16 px-4 max-sm:px-5">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-12">
           <p className="uppercase text-sm tracking-widest text-gray-500 font-medium">
             Nos SOSises
@@ -53,7 +53,7 @@ export default function ServiceSection() {
             Services Plomberie à Aix-En-Provence
           </h2>
           <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-            Artisan plombier local intervenant 24h/24 pour tous vos dépannages dans le Var
+            Artisan plombier local intervenant 24h/24 pour tous vos dépannages à Aix-en-Provence et ses quartiers
           </p>
         </div>
 
@@ -72,14 +72,45 @@ export default function ServiceSection() {
                 </h3>
               </div>
               <p className="text-gray-600 mb-4">{service.description}</p>
+              <p className="text-sm text-gray-500 mt-2">
+                Zones desservies : Centre-ville, Mourillon, Pont-du-Las, La Rode, Saint-Jean du Var
+              </p>
               <a 
-                href={`tel:+334XXXXXXX`} 
-                className="text-[#E67E22] font-medium hover:underline inline-flex items-center"
+                href="tel:+33756935200" 
+                className="text-[#E67E22] font-medium hover:underline inline-flex items-center mt-4"
               >
                 <span>Demander une intervention</span>
               </a>
             </div>
           ))}
+        </div>
+
+        {/* FAQ Intégrée */}
+        <div className="mt-16 bg-[#f7f9fa] p-8 rounded-xl">
+          <h3 className="text-2xl font-bold text-[#212121] mb-6">
+            Questions fréquentes - Plombier Aix-en-Provence
+          </h3>
+          <div className="space-y-4">
+            {[
+              {
+                q: "Quel est votre délai d'intervention à Aix-en-Provence ?",
+                r: "Nous intervenons en moins de 30 minutes dans la plupart des quartiers d'Aix-en-Provence pour les urgences."
+              },
+              {
+                q: "Facturez-vous le déplacement ?",
+                r: "Non, le déplacement et le devis sont totalement gratuits pour tous les habitants d'Aix-en-Provence et ses environs."
+              },
+              {
+                q: "Êtes-vous disponible les week-ends et jours fériés ?",
+                r: "Oui, notre service d'urgence plomberie est disponible 24h/24, 7j/7, y compris les jours fériés à Aix-en-Provence."
+              }
+            ].map((item, i) => (
+              <div key={i} className="border-b pb-4">
+                <p className="font-semibold text-[#E67E22]">Q: {item.q}</p>
+                <p className="mt-2 text-gray-700">R: {item.r}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

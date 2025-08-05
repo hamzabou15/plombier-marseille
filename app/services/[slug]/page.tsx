@@ -6,16 +6,12 @@ import { services } from '@/lib/service';
 import ContactForm from '@/components/services/ContactSection';
 
 interface PageProps {
-
   params: Promise<{ slug: string }>
 }
 
-
 // Génère les metadata dynamiques pour chaque service
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
-
-    const { slug } = await params;
-
+  const { slug } = await params;
   const service = services.find(p => p.slug === slug);
 
   if (!service) {
@@ -44,16 +40,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       type: 'website',
     },
     keywords: [
-      service.title.split(' ')[0],
+      ...service.title.split(' '),
       'Aix-En-Provence',
       'Plombier',
       'Urgence',
       'Dépannage',
-      ...service.title.split(' '),
+      'Centre-ville',
+      'Mourillon',
+      'Pont-du-Las',
+      'Saint-Jean du Var',
+      'La Rode',
+      'Quartiers Aix-en-Provence',
+      'Var',
+      'Plombier local',
+      'Artisan plombier'
     ],
   };
 }
-
 
 export default async function ServicePage({ params }: PageProps) {
   const { slug } = await params;
@@ -62,8 +65,8 @@ export default async function ServicePage({ params }: PageProps) {
   if (!service) return notFound();
 
   return (
-    <main className="bg-gray-100 min-h-screen py-10">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 grid lg:grid-cols-3 gap-8 p-6 max-lg:items-center">
+    <main className=" min-h-screen py-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 grid lg:grid-cols-3 gap-8 p-6 max-lg:items-center">
         <div className="md:col-span-2">
           <Image
             src={service.image}
@@ -122,11 +125,11 @@ export default async function ServicePage({ params }: PageProps) {
           )}
         </div>
 
-        <div className="min-h-[calc(100vh-40px)] sticky top-[100px] self-start bg-white p-6 max-lg:min-h-auto">
-          {/* ContactForm est un composant client, c'est OK ici */}
+        <div className="min-h-[calc(100vh-40px)] sticky top-[100px] self-start bg-white  max-lg:min-h-auto">
           <ContactForm />
         </div>
       </div>
     </main>
   );
 }
+

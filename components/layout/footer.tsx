@@ -5,12 +5,12 @@ import Image from "next/image";
 export default function Footer() {
     return (
         <footer className="bg-[#161A1A] text-white pt-16 pb-8 px-4 sm:px-6">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
                 {/* Logo et description */}
                 <div>
                     <div className="mb-4">
                         <Image
-                            src="/images/logo-plombier-aixenprovence-expert.svg"
+                            src="/images/logo-plombier-aixenprovence-expert.webp"
                             alt="Plombier Aix-En-Provence SOS - Logo"
                             width={160}
                             height={40}
@@ -18,7 +18,7 @@ export default function Footer() {
                         />
                     </div>
                     <p className="text-gray-300 text-sm mb-4">
-                        Plombier professionnel à Aix-En-Provence pour dépannages urgents 24h/24, 
+                        Plombier professionnel à Aix-En-Provence pour dépannages urgents 24h/24,
                         débouchage canalisation, réparation fuite d&apos;eau et rénovation salle de bains.
                     </p>
                     <div className="flex space-x-4">
@@ -107,7 +107,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="mt-12 border-t border-gray-700 pt-6 text-sm text-gray-400 flex flex-col md:flex-row items-center justify-between max-w-6xl mx-auto px-4 sm:px-6">
+            <div className="mt-12 border-t border-gray-700 pt-6 text-sm text-gray-400 flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-4 sm:px-6">
                 <p>&copy; {new Date().getFullYear()} Plombier Aix-En-Provence SOS. Tous droits réservés.</p>
                 <div className="flex space-x-4 mt-2 md:mt-0">
                     <Link href="/politique-confidentialite" className="hover:text-white">Confidentialité</Link>

@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-[#2f2f2f]/5 blur-2xl" />
       </div>
 
-      <div className="max-w-6xl mx-auto px-6 lg:px-8 flex flex-col-reverse 
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col-reverse 
                     lg:flex-row items-center gap-16 relative z-10 mb-20">
         {/* Texte */}
         <div className="w-full lg:w-1/2 flex flex-col gap-6">
@@ -24,15 +24,18 @@ export default function Hero() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <p className="uppercase text-sm tracking-widest font-semibold text-[#555555] mb-1">
-              Plomberie d’urgence — Aix-en-Provence
+              Plomberie d&apos;urgence — Aix-en-Provence et ses quartiers
             </p>
             <h1 className="font-extrabold leading-tight text-[#2f2f2f] text-4xl sm:text-5xl md:text-6xl">
-              Plombier Aix-en-Provence <span className="text-[#E67E22]">Urgence 24/7</span>
+              Plombier Urgent à Aix-en-Provence <span className="text-[#E67E22]">24h/24</span>
               <br />
-              Intervention Express & Artisanale
+              Intervention Express en moins de 30 min
             </h1>
             <p className="mt-4 text-base text-[#4a4a4a] max-w-prose">
-              Dépannage rapide pour fuites, canalisations bouchées et chauffe-eau en panne. Devis transparent, déplacement offert, équipe certifiée — disponible en moins de 30 minutes.
+              Votre artisan plombier certifié à Aix-en-Provence pour toutes urgences : 
+              <strong> fuites d&apos;eau, canalisations bouchées, WC bouchés et chauffe-eau en panne</strong>. 
+              Service 24/7 dans les quartiers Centre-ville, Mourillon, Pont-du-Las et toute l&apos;agglomération.
+              Devis gratuit et déplacement offert.
             </p>
           </motion.div>
 

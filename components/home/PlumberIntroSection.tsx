@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, Clock, Award, Star } from "lucide-react";
+import { Phone, Star } from "lucide-react";
 import { Button } from "../ui/button";
 
 const stats = [
@@ -19,13 +19,13 @@ export default function HeroPlomberie2025() {
                     src="/images/plomberie-bg.webp"
                     alt="Plombier Aix-en-Provence"
                     fill
-                    className="object-cover opacity-30" // un peu moins opaque pour pas assombrir trop
+                    className="object-cover opacity-30"
                     priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-[#0F172A]/90 via-[#0F172A]/85 to-[#1E293B]/85" />
             </div>
 
-            <div className="relative max-w-6xl mx-auto px-6 py-24 lg:py-32 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-xl:px-10 max-sm:px-5">
+            <div className="relative max-w-7xl mx-auto px-6 py-24 lg:py-32 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-xl:px-10 max-sm:px-5">
                 {/* Texte */}
                 <div>
                     <span className="inline-block bg-[#E67E22]/25 text-[#E67E22] px-4 py-1 rounded-full text-sm font-semibold mb-5 tracking-wide uppercase">
@@ -76,7 +76,7 @@ export default function HeroPlomberie2025() {
                     <div className="absolute -inset-6 rounded-[2.5rem] bg-[#E67E22]/25 blur-3xl" />
                     <div className="relative rounded-[2rem] overflow-hidden shadow-xl border border-white/20">
                         <Image
-                            src="/images/plombier-aixenprovence.webp"
+                            src="/images/plombier-sos-aix-en-provence.webp"
                             alt="Plombier en intervention"
                             width={520}
                             height={620}

@@ -12,8 +12,8 @@ import LocalBusinessSchema from "@/components/SEO/LocalBusiness";
 
 export const metadata: Metadata = {
   title: "Plombier Aix-En-Provence │ Urgence 24h/24 - Artisan Certifié & Intervention Express",
-  description: "Plombier expert à Aix-En-Provence pour dépannage immédiat 7j/7 : fuites d'eau, débouchage canalisation, chauffe-eau. ☎ +33 7 56 93 52 00 - Intervention rapide quartiers Aix-En-Provence Centre, Mourillon, Pont-du-Las",
-  keywords: "plombier aixenprovence, dépannage plomberie aixenprovence, urgence plombier 24/7, débouchage canalisation aixenprovence, fuite d'eau aixenprovence, réparation chauffe-eau aixenprovence, artisan plombier var",
+  description: "☎ 07 56 93 52 00 - Plombier expert à Aix-En-Provence pour dépannage immédiat 7j/7 : fuites d'eau, débouchage canalisation, chauffe-eau. Intervention rapide quartiers Centre, Mourillon, Pont-du-Las. Devis gratuit & sans engagement.",
+  keywords: "plombier aixenprovence, dépannage plomberie aixenprovence, urgence plombier 24/7, débouchage canalisation aixenprovence, fuite d'eau aixenprovence, réparation chauffe-eau aixenprovence, plombier pas cher aix en provence, artisan plombier aix en provence",
   openGraph: {
     title: "Plombier Aix-En-Provence SOS │ Urgence 24h/24 - Devis Gratuit & Intervention Rapide",
     description: "Plombier certifié à Aix-En-Provence pour interventions express 7j/7. Fuites, canalisations, chauffe-eau - Service garanti avec transparence tarifaire",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Plombier Aix-En-Provence │ Urgence 24h/24 - Artisan Local & Intervention Express",
-    description: "☎ +33 756 93 52 00 - Plombier expert pour dépannage immédiat dans le Var. Fuites, canalisations, chauffe-eau - Service 24/7 avec garantie",
+    description: "☎ 07 56 93 52 00 - Plombier expert pour dépannage immédiat à Aix-en-Provence. Fuites, canalisations, chauffe-eau - Service 24/7 avec garantie",
     images: ["https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence-hero.webp"],
   },
   alternates: {

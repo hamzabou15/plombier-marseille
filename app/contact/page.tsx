@@ -75,7 +75,7 @@ const page = () => {
             </Head>
             <LocalBusinessSchema />
             <main className="min-h-[calc(100vh-100px)]">
-                <div className="max-w-6xl mx-auto px-4 sm:px-6 px-4 py-10">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 px-4 py-10">
                     {/* Contact Form Component */}
                     <ContactForm />
                 </div>

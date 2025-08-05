@@ -1,11 +1,11 @@
 "use client";
 import Link from "next/link";
-import { Phone, Check, AlertCircle } from "lucide-react";
+import { Phone, Check, AlertCircle, CheckCircle } from "lucide-react";
 
 export default function InfoSection() {
   return (
     <section className="bg-gradient-to-b from-[#fcf7f0] to-[#f5e6cc] py-20 px-6">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-7xl mx-auto">
         {/* Intro & Title */}
         <div className="text-center mb-16">
           <h2 className="text-5xl font-extrabold leading-tight max-sm:text-3xl text-[#2f2f2f]">
@@ -22,19 +22,23 @@ export default function InfoSection() {
           <div className="space-y-8">
             <div className="bg-white shadow-xl rounded-2xl p-8 border border-[#e8dfd6]">
               <h3 className="text-2xl font-bold text-[#2f2f2f] mb-3">
-                Nos interventions rapides et fiables
+                Interventions dans tous les quartiers d&apos;Aix-en-Provence
               </h3>
               <p className="text-base leading-relaxed text-[#555555]">
-                Nous couvrons les quartiers d’Aix-en-Provence comme <strong>Centre-ville, Le Mourillon, Pont-du-Las, Saint-Jean du Var, La Rode, Le Pont Neuf</strong>. Chaque intervention est accompagnée de <strong>devis gratuit</strong> et de <strong>transparence totale</strong>.
+                Nous couvrons <strong>tous les quartiers d&apos;Aix-en-Provence</strong> : 
+                Centre-ville, Le Mourillon, Pont-du-Las, Saint-Jean du Var, La Rode, 
+                Les Quartiers Sud, Les Quartiers Est. Intervention rapide 24h/24.
               </p>
             </div>
-
+            
             <div className="bg-white shadow-xl rounded-2xl p-8 border border-[#e8dfd6]">
               <h3 className="text-2xl font-bold text-[#2f2f2f] mb-3">
-                Zones d’intervention : Aix-en-Provence & Var
+                Communes limitrophes desservies
               </h3>
               <p className="text-base leading-relaxed text-[#555555]">
-                Intervention sur tout le département du <strong>Var (83)</strong> : <strong>La Valette-du-Var, La Garde, Le Revest-les-Eaux, Ollioules, La Seyne-sur-Mer, Six-Fours-les-Plages, Sanary-sur-Mer, Bandol</strong>. Urgence = disponibilité 24h/24 sans compromis.
+                Nous intervenons également dans <strong>les communes autour d&apos;Aix-en-Provence</strong> : 
+                La Valette-du-Var, La Garde, Le Revest-les-Eaux, Ollioules, La Seyne-sur-Mer, 
+                Six-Fours-les-Plages, Sanary-sur-Mer, Bandol.
               </p>
             </div>
 
@@ -54,10 +58,10 @@ export default function InfoSection() {
                   <li
                     key={i}
                     className="flex items-start gap-2 text-[#444444] leading-snug"
-                    dangerouslySetInnerHTML={{
-                      __html: `<span class="mt-1"><svg xmlns="http://www.w3.org/2000/svg" class="inline-block h-5 w-5 text-[#E67E22]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span> ${item}`,
-                    }}
-                  />
+                  >
+                    <CheckCircle className="w-5 h-5 text-[#E67E22] flex-shrink-0 mt-1" />
+                    <span dangerouslySetInnerHTML={{ __html: item }} />
+                  </li>
                 ))}
               </ul>
             </div>
@@ -99,7 +103,7 @@ export default function InfoSection() {
             <div className="bg-[#2f2f2f] rounded-2xl p-8 text-white flex flex-col gap-6">
               <h3 className="text-2xl font-bold">Devis & interventions</h3>
               <p className="text-base leading-relaxed">
-                Devis gratuit, évaluation sans surprise, intervention rapide avec matériel premium. On vous explique tout avant d’agir.
+                Devis gratuit, évaluation sans surprise, intervention rapide avec matériel premium. On vous explique tout avant d&apos;agir.
               </p>
               <div className="flex flex-wrap gap-4 mt-2">
                 <Link
@@ -118,7 +122,6 @@ export default function InfoSection() {
             </div>
 
             <div className="flex justify-center gap-4 mt-4">
-              {/* Secondary quick links */}
               <Link
                 href="/faq"
                 className="text-sm font-medium text-[#555555] hover:underline flex items-center gap-1"
@@ -139,10 +142,10 @@ export default function InfoSection() {
         <div className="mt-16 bg-white border border-[#e8dfd6] rounded-2xl flex flex-col md:flex-row items-center justify-between gap-6 p-8 shadow">
           <div className="flex-1">
             <h3 className="text-2xl font-bold text-[#2f2f2f]">
-              Besoin d’un plombier en urgence ?
+              Besoin d&apos;un plombier en urgence à Aix-en-Provence ?
             </h3>
             <p className="mt-1 text-[#555555]">
-              Intervention express, devis clair, service 24/7 dans Aix-en-Provence.
+              Intervention express, devis clair, service 24/7 dans tous les quartiers.
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4">

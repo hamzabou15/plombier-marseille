@@ -18,7 +18,7 @@ const ContactSection = () => {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/xyzppnpj", {
+      const response = await fetch("https://formspree.io/f/meozrlnej", {
         method: "POST",
         body: formData,
         headers: {
@@ -60,7 +60,7 @@ const ContactSection = () => {
 
   return (
     <section className="bg-gradient-to-b from-[#fcf7f0] to-[#f5e6cc] py-20 px-6">
-      <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
         {/* Left Info Panel */}
         <div className="flex flex-col justify-between gap-8">
           <div>
@@ -74,7 +74,7 @@ const ContactSection = () => {
               <span className="text-[#E67E22]">24h/24 — +33 7 56 93 52 00</span>
             </h2>
             <p className="text-base text-[#4a4a4a] mb-6">
-              Fuite d’eau, WC bouché, panne de chauffe-eau ? Intervention en{" "}
+              Fuite d&apos;eau, WC bouché, panne de chauffe-eau ? Intervention en{" "}
               <strong>moins de 30 minutes</strong> sur Aix-en-Provence et ses environs, sans surprise.
             </p>
 
@@ -89,10 +89,10 @@ const ContactSection = () => {
               </div>
               <div className="bg-white rounded-2xl p-6 shadow border border-[#e8dfd6]">
                 <h3 className="text-lg font-semibold text-[#2f2f2f] mb-1">
-                  Intervention
+                  Zones d&apos;intervention
                 </h3>
                 <p className="text-sm text-[#555555]">
-                  Réponse express, devis clair, matériel premium, transparence totale.
+                  Centre-ville, Mourillon, Pont-du-Las, La Rode et toute l&apos;agglomération
                 </p>
               </div>
             </div>
@@ -184,12 +184,12 @@ const ContactSection = () => {
               </div>
               <div>
                 <label className="block mb-1 font-medium text-[#2f2f2f]">
-                  Adresse *
+                  Adresse & Quartier *
                 </label>
                 <input
                   name="Adresse"
                   required
-                  placeholder="Aix-en-Provence ou environs"
+                  placeholder="Ex: 12 Rue du Centre, Quartier Mourillon"
                   className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
                   type="text"
                 />
@@ -232,7 +232,7 @@ const ContactSection = () => {
                 name="Message"
                 required
                 rows={3}
-                placeholder="Expliquez rapidement le problème"
+                placeholder="Expliquez rapidement le problème et votre localisation précise"
                 className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
               ></textarea>
             </div>

@@ -14,7 +14,7 @@ const StatsCard = () => {
 
     return (
         <section className='py-16' id="chiffres-plomberie-aixenprovence" aria-label="Statistiques Plombier Aix-En-Provence">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 px-4 sm:px-6 text-center mb-12">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 px-4 sm:px-6 text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#E67E22]">
                     Plombier Aix-En-Provence en Chiffres
                 </h2>
@@ -23,7 +23,7 @@ const StatsCard = () => {
                 </p>
             </div>
             
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4 max-w-6xl mx-auto px-4 sm:px-6'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-4 max-w-7xl mx-auto px-4 sm:px-6'>
                 {stats.map((stat, index) => (
                     <StatItem
                         key={index}

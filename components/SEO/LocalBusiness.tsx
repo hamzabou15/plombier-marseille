@@ -8,18 +8,18 @@ export default function LocalBusinessSchema() {
     ...schemaLocalBusiness,
     "@type": "Plumber",
     name: "Plombier Aix-En-Provence SOS",
-    image: "https://plombieraixenprovence-sos.fr/logo.png",
-    telephone: "+334XXXXXXX",
+    image: "https://plombieraixenprovence-sos.fr/logo-plombier-aixenprovence-expert.png",
+    telephone: "+33756935200",
     address: {
       ...schemaLocalBusiness.address,
       addressLocality: "Aix-En-Provence",
-      addressRegion: "Var",
-      postalCode: "83000",
+      addressRegion: "Bouches-du-Rhône",
+      postalCode: "13100",
       streetAddress: "123 Avenue de la République"
     },
     geo: {
-      latitude: "43.124228",
-      longitude: "5.928000"
+      latitude: "43.529742",
+      longitude: "5.447427"
     },
     openingHoursSpecification: [
       {
@@ -29,19 +29,24 @@ export default function LocalBusinessSchema() {
       }
     ],
     areaServed: [
-      "Aix-En-Provence",
+      "Aix-En-Provence Centre",
+      "Mourillon",
+      "Pont-du-Las",
+      "Saint-Jean du Var",
+      "La Rode",
+      "Les Quartiers Sud",
+      "Les Quartiers Est",
       "La Valette-du-Var",
       "La Garde",
       "Le Revest-les-Eaux",
-      "Ollioules",
-      "La Seyne-sur-Mer"
+      "Ollioules"
     ],
     serviceArea: {
       "@type": "GeoCircle",
       geoMidpoint: {
         "@type": "GeoCoordinates",
-        latitude: "43.124228",
-        longitude: "5.928000"
+        latitude: "43.529742",
+        longitude: "5.447427"
       },
       geoRadius: "20000"
     },
