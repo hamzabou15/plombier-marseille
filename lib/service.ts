@@ -175,7 +175,7 @@ export const services = [
         <p class="text-[#4d5562] mt-4">
           Profitez d'eau chaude toute l'année dans votre maison aixoise.
         </p>`,
-      img1: "/images/installation-chaufage-marseille.webp",
+      img1: "/images/installation-chaufage-marseille.Webp",
       img2: "/images/chauffe-eau-thermodynamique-marseille.webp"
     }
   },
