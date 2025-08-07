@@ -138,7 +138,7 @@ export const services = [
   {
     title: "Installation Chauffe-Eau à Marseille",
     description: "Pose et remplacement de chauffe-eau à Marseille. Solutions électriques, thermodynamiques et gaz avec aides de l'État pour les habitants du 13100.",
-    image: "/images/installation-chaufage-marseille.webp",
+    image: "/images/installation-chaufage-marseille.Webp",
     alt: "Installation chauffe-eau thermodynamique dans une maison des Milles à Aix",
     link: "/services/installation-chauffe-eau-marseille",
     slug: "installation-chauffe-eau-marseille",
