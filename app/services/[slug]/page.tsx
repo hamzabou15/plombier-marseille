@@ -88,7 +88,7 @@ export default async function ServicePage({ params }: PageProps) {
             priority
           />
           <h1 className="text-4xl font-bold max-lg:text-3xl mt-8 text-[#212121]">
-            {service.title} à Marseille
+            {service.title}
           </h1>
           <p className="text-[#4d5562] mt-4 text-lg">{service.description}</p>
 
