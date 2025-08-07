@@ -76,7 +76,7 @@ export default function HeroPlomberie2025() {
                     <div className="absolute -inset-6 rounded-[2.5rem] bg-[#43926b]/25 blur-3xl" />
                     <div className="relative rounded-[2rem] overflow-hidden shadow-xl border border-white/20">
                         <Image
-                            src="/images/plombier-expert-Marseille.webp"
+                            src="/images/plombier-expert-marseille.webp"
                             alt="Plombier professionnel en intervention à Centre-ville Marseille (13001)"
                             width={520}
                             height={620}
