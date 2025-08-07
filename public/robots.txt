@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://plombieraixenprovence-sos.fr/sitemap.xml
+Sitemap: https://plombiermarseille-expert.fr/sitemap.xml

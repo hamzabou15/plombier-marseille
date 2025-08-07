@@ -1,276 +1,308 @@
 export const services = [
   {
-    title: "Dépannage Plomberie Urgence 24h/24",
-    description: "Intervention express à Aix-En-Provence Centre, Mourillon et Pont-du-Las pour fuites d'eau, canalisations bouchées et panne de chauffe-eau. Service garanti avec délai moyen de 30 minutes.",
-    image: "/images/plombier-sur-aixenprovence-fuite-depannage.webp",
-    alt: "Plombier en intervention urgente à Quartier Centre Aix-En-Provence pour dépannage de plomberie",
-    link: "/services/depannage-plomberie-urgence-aixenprovence",
-    slug: "depannage-plomberie-urgence-aixenprovence",
+    title: "Dépannage Plomberie Urgence 24h/24 à Marseille",
+    description: "Plombier urgentiste à Marseille Centre, Mazarin et Pont de l'Arc. Intervention express en 30 min max pour fuites d'eau, canalisations bouchées et chauffe-eau en panne.",
+    image: "/images/reparation-fuite-eau-marseille.webp",
+    alt: "Plombier en intervention urgente dans le quartier Mazarin à Marseille",
+    link: "/services/depannage-plomberie-urgence-marseille",
+    slug: "depannage-plomberie-urgence-marseille",
     child: {
-      title1: "Urgences plomberie à Aix-En-Provence : intervention rapide 24h/24",
+      title1: "Urgences plomberie 24/7 dans Marseille",
+      localisation1: "Centre-ville (13100)",
+      localisation2: "Quartier Mazarin",
       description1: `
         <p class="text-[#4d5562]">
-          En cas de fuite d'eau, canalisation bouchée ou panne de chauffe-eau dans les quartiers d'Aix-En-Provence, notre équipe de plombiers urgentistes intervient en moins de 30 minutes. Nous comprenons l'urgence de la situation et agissons rapidement pour limiter les dégâts et rétablir votre confort.
+          En cas de <strong>fuite d'eau à Marseille</strong>, canalisation bouchée ou panne de chauffe-eau dans les quartiers du <strong>Centre-ville, Mazarin ou Pont de l'Arc (13100)</strong>, notre équipe de plombiers urgentistes intervient en moins de 30 minutes. Nous agissons rapidement pour limiter les dégâts dans votre logement aixen.
         </p>
-        <p class="text-[#4d5562]">
-          Nos interventions d'urgence comprennent :
+        <p class="text-[#4d5562] mt-4">
+          Nos services d'urgence dans le 13100 :
         </p>
         <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Fuite d'eau</strong> : repérage et réparation immédiate dans tout Aix-en-Provence</li>
-          <li><strong class="text-gray-700">Canalisations bouchées</strong> : débouchage rapide des WC, éviers, douches dans les quartiers Centre, Mourillon, Pont-du-Las</li>
-          <li><strong class="text-gray-700">Panne de chauffe-eau</strong> : diagnostic et réparation en urgence pour rétablir l'eau chaude</li>
-          <li><strong class="text-gray-700">Robinetterie défectueuse</strong> : remplacement de robinets, mitigeurs ou flexibles qui fuient</li>
-          <li><strong class="text-gray-700">Intervention 24h/24 et 7j/7</strong> : même les weekends et jours fériés dans le Var</li>
+          <li><strong>Fuite d'eau</strong> : réparation immédiate dans tout Marseille</li>
+          <li><strong>Canalisations bouchées</strong> : débouchage rapide WC/éviers dans Centre-ville et Mazarin</li>
+          <li><strong>Panne chauffe-eau</strong> : diagnostic et réparation en urgence</li>
+          <li><strong>Robinetterie défectueuse</strong> : remplacement express de robinets</li>
+          <li><strong>Disponibilité 24h/24</strong> : 7j/7 même jours fériés</li>
         </ul>`,
-      title2: "Notre engagement pour votre sérénité à Aix-en-Provence",
+      title2: "Expertise locale pour Marseille",
       description2: `
         <p class="text-[#4d5562]">
-          Notre service d'urgence est garanti par une équipe de professionnels expérimentés, équipés de véhicules tout équipés pour intervenir rapidement dans tout Aix-en-Provence. Nous disposons d'un stock de pièces détachées pour la plupart des réparations courantes.
+          Notre service d'urgence est assuré par des artisans plombiers locaux équipés pour intervenir dans les rues étroites du Vieux Aix et les quartiers résidentiels.
         </p>
-        <p class="text-[#4d5562]">
-          En choisissant notre service de dépannage plomberie d'urgence à Aix-En-Provence, vous bénéficiez :
-        </p>
-        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Délai d'intervention garanti</strong> : moins de 30 minutes en moyenne dans les quartiers centraux</li>
-          <li><strong class="text-gray-700">Transparence tarifaire</strong> : devis clair avant toute intervention</li>
-          <li><strong class="text-gray-700">Professionnalisme</strong> : plombiers qualifiés, courtois et respectueux</li>
-          <li><strong class="text-gray-700">Garantie de résultat</strong> : toutes nos réparations sont garanties</li>
-        </ul>`,
-      img1: "/images/plombier-sur-aixenprovence-fuite-depannage.webp",
-      img2: "/images/plombier-sur-aixenprovence-fuite-Renovation.webp"
-    }
-  },
-  {
-    title: "Débouchage Canalisation Express",
-    description: "Solution rapide pour canalisations bouchées à Aix-En-Provence Centre, Mourillon et Pont-du-Las. WC, évier, douche - Intervention en moins d'1h avec garantie de résultat.",
-    image: "/images/debouchage-canalisation-aixenprovence.webp",
-    alt: "Technicien plombier débouche une canalisation à Quartier Centre Aix-En-Provence",
-    link: "/services/debouchage-canalisation-aixenprovence",
-    slug: "debouchage-canalisation-aixenprovence",
-    child: {
-      title1: "Débouchage express à Aix-En-Provence : moins d'1h d'intervention",
-      description1: `
-        <p class="text-[#4d5562]">
-          Canalisation bouchée dans votre quartier à Aix-En-Provence ? Nos experts en débouchage interviennent en urgence avec du matériel professionnel (furet électrique, pompe à haute pression, caméra d'inspection) pour localiser et éliminer le bouchon rapidement. Nous traitons tous types de canalisations :
+        <p class="text-[#4d5562] mt-4">
+          Avantages pour les Aixois :
         </p>
         <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">WC bouchés</strong> : désobstruation sans endommager les sanitaires dans tout Aix-en-Provence</li>
-          <li><strong class="text-gray-700">Éviers et lavabos</strong> : élimination des dépôts graisseux et résidus</li>
-          <li><strong class="text-gray-700">Canalisations d'eaux usées</strong> : débouchage des conduites principales</li>
-          <li><strong class="text-gray-700">Intervention express</strong> : délai moyen de 45 minutes dans les quartiers Centre, Mourillon, Pont-du-Las</li>
-        </ul>`,
-      title2: "Technologie professionnelle pour un résultat garanti dans le Var",
-      description2: `
-        <p class="text-[#4d5562]">
-          Grâce à notre caméra d'inspection, nous identifions précisément la nature et l'emplacement du bouchon avant toute intervention. Cette méthode nous permet de choisir la technique la plus adaptée sans tâtonnement inutile.
-        </p>
-        <p class="text-[#4d5562]">
-          Nos solutions à Aix-En-Provence :
-        </p>
-        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Garantie 6 mois</strong> sur toutes nos interventions de débouchage</li>
-          <li><strong class="text-gray-700">Pas de frais cachés</strong> : prix transparent dès le diagnostic</li>
-          <li><strong class="text-gray-700">Équipements dernière génération</strong> : sans produits corrosifs</li>
-          <li><strong class="text-gray-700">Conseils préventifs</strong> : pour éviter les récidives</li>
-        </ul>`,
-      img1: "/images/debouchage-canalisation-aixenprovence.webp",
-      img2: "/images/curage_debouchage_canalisation_1.webp"
-    }
-  },
-  {
-    title: "Réparation Fuite d'Eau Sans Casse",
-    description: "Détection précise et réparation de fuites à Aix-En-Provence sans endommager vos murs ou sols. Technologie infrarouge professionnelle disponible dans tout le Var.",
-    image: "/images/reparation-fuite-eau-aixenprovence.webp",
-    alt: "Réparation de fuite d'eau par plombier expert à Quartier Mourillon Aix-En-Provence",
-    link: "/services/reparation-fuite-eau-aixenprovence",
-    slug: "reparation-fuite-eau-aixenprovence",
-    child: {
-      title1: "Détection de fuite sans casse à Aix-En-Provence : technologie infrarouge",
-      description1: `
-        <p class="text-[#4d5562]">
-          Fuite d'eau cachée dans vos murs ou sous votre sol à Aix-En-Provence ? Notre équipe utilise des caméras thermiques et des gaz traceurs pour localiser précisément la fuite sans effectuer de dégâts inutiles. Cette méthode non invasive nous permet d'intervenir rapidement dans les quartiers Centre, Mourillon, Pont-du-Las tout en préservant vos revêtements.
-        </p>
-        <p class="text-[#4d5562]">
-          Nous réparons tous types de fuites :
-        </p>
-        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Fuite sous carrelage</strong> : réparation sans casser les carreaux</li>
-          <li><strong class="text-gray-700">Canalisations encastrées</strong> : détection dans les murs et cloisons</li>
-          <li><strong class="text-gray-700">Réseaux de chauffage</strong> : fuites sur planchers chauffants</li>
-          <li><strong class="text-gray-700">Diagnostic précis</strong> : rapport détaillé avec images thermiques</li>
-        </ul>`,
-      title2: "Réparation durable avec garantie décennale dans le Var",
-      description2: `
-        <p class="text-[#4d5562]">
-          Après localisation, nous utilisons des techniques de pointe comme la soudure à froid ou le chemisage de canalisations pour réparer sans remplacer toute la tuyauterie. Nos interventions à Aix-En-Provence incluent :
-        </p>
-        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Garantie décennale</strong> sur toutes nos réparations</li>
-          <li><strong class="text-gray-700">Restauration complète</strong> : remise en état des surfaces</li>
-          <li><strong class="text-gray-700">Économies d'eau garanties</strong> : détection même sur micro-fuites</li>
-          <li><strong class="text-gray-700">Certification Qualibat</strong> : artisans plombiers qualifiés</li>
+          <li><strong>Délai garanti</strong> : moins de 30 min dans le centre historique</li>
+          <li><strong>Tarifs transparents</strong> : devis clair avant intervention</li>
+          <li><strong>Plombiers certifiés</strong> : qualifications Qualibat</li>
+          <li><strong>Garantie 2 ans</strong> : sur toutes réparations</li>
         </ul>
         <p class="text-[#4d5562] mt-4">
-          Nos techniciens interviennent dans tout le Var pour vous éviter les dégâts des eaux.
+          <strong>Appelez le +33756935200</strong> pour un dépannage express dans votre quartier.
         </p>`,
-      img1: "/images/reparation-fuite-eau-aixenprovence.webp",
-      img2: "/images/plombier-sur-aixenprovence-fuite-Renovation.webp"
+      img1: "/images/reparation-fuite-eau-marseille.webp",
+      img2: "/images/plombier-sur-marseille-fuite-depannage.webp"
     }
   },
   {
-    title: "Installation Chauffe-Eau Aix-En-Provence",
-    description: "Remplacement et pose de chauffe-eau à Aix-En-Provence Centre, Mourillon, Pont-du-Las (électrique, thermodynamique, gaz). Devis gratuit et installation sous 24h.",
-    image: "/images/chauffeau.webp",
-    alt: "Installation d'un chauffe-eau par plombier à Quartier Pont-du-Las Aix-En-Provence",
-    link: "/services/installation-chauffe-eau-aixenprovence",
-    slug: "installation-chauffe-eau-aixenprovence",
+    title: "Débouchage Canalisation Express à Marseille",
+    description: "Solution rapide pour canalisations bouchées à Marseille. Débouchage WC, évier, douche en moins d'1h avec garantie dans tous les quartiers.",
+    image: "/images/debouchage-canalisation-marseille.webp",
+    alt: "Technicien débouche une canalisation dans le quartier Pont de l'Arc à Marseille",
+    link: "/services/debouchage-canalisation-marseille",
+    slug: "debouchage-canalisation-marseille",
     child: {
-      title1: "Installation de chauffe-eau à Aix-En-Provence : solutions économiques",
+      title1: "Débouchage express dans Marseille",
+      localisation1: "Les Allumettes (13090)",
+      localisation2: "Encagnane",
       description1: `
         <p class="text-[#4d5562]">
-          Remplacement ou installation neuve de votre chauffe-eau dans les quartiers d'Aix-En-Provence par des plombiers certifiés. Nous proposons plusieurs technologies adaptées à vos besoins :
+          Canalisation bouchée dans votre quartier à Marseille ? Nos experts interviennent en urgence dans les secteurs du <strong>13090, Les Allumettes et Encagnane</strong> avec matériel professionnel (caméra d'inspection, furet haute pression).
+        </p>
+        <p class="text-[#4d5562] mt-4">
+          Nos interventions à Aix :
         </p>
         <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Chauffe-eau électrique</strong> : installation standard ou instantané</li>
-          <li><strong class="text-gray-700">Chauffe-eau thermodynamique</strong> : jusqu'à 70% d'économies d'énergie</li>
-          <li><strong class="text-gray-700">Chauffe-eau gaz</strong> : solution performante pour grandes familles</li>
-          <li><strong class="text-gray-700">Chauffe-eau solaire</strong> : énergie renouvelable avec aides de l'État</li>
-          <li><strong class="text-gray-700">Remplacement express</strong> : en moins de 2 heures à Aix-En-Provence</li>
+          <li><strong>WC bouchés</strong> : désobstruction sans dommage</li>
+          <li><strong>Éviers et lavabos</strong> : élimination dépôts graisseux</li>
+          <li><strong>Canalisations eaux usées</strong> : débouchage conduites</li>
+          <li><strong>Intervention rapide</strong> : 45 min en moyenne</li>
         </ul>`,
-      title2: "Conseils experts et aides financières à Aix-en-Provence",
+      title2: "Technologie de pointe pour Marseille",
       description2: `
         <p class="text-[#4d5562]">
-          Notre équipe vous guide dans le choix du modèle le plus adapté à votre consommation dans votre quartier et vous informe sur les aides disponibles (MaPrimeRénov', CEE, TVA réduite). Nous gérons toute la paperasse pour vous faciliter les démarches.
+          Notre caméra d'inspection identifie précisément les bouchons dans les canalisations aixoises, permettant une intervention ciblée sans tâtonnement.
         </p>
-        <p class="text-[#4d5562]">
-          Notre service complet :
-        </p>
-        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Démontage et évacuation</strong> de l'ancien appareil</li>
-          <li><strong class="text-gray-700">Installation aux normes</strong> avec groupe de sécurité neuf</li>
-          <li><strong class="text-gray-700">Mise en service</strong> et explications d'utilisation</li>
-          <li><strong class="text-gray-700">Contrat d'entretien</strong> : optionnel mais recommandé</li>
-          <li><strong class="text-gray-700">Disponibilité 7j/7</strong> pour les urgences chauffe-eau</li>
-        </ul>`,
-      img1: "/images/chauffeau.webp",
-      img2: "/images/chauffe-eau-thermodynamique-aixenprovence.webp"
-    }
-  },
-  {
-    title: "Rénovation Salle de Bains Clé en Main",
-    description: "Transformation complète de votre salle de bains à Aix-En-Provence Centre, Mourillon, Pont-du-Las. Du design à la réalisation, avec garantie décennale.",
-    image: "/images/salle-de-bain.webp",
-    alt: "Rénovation de salle de bains par artisan plombier à Quartier Centre Aix-En-Provence",
-    link: "/services/renovation-salle-de-bains-aixenprovence",
-    slug: "renovation-salle-de-bains-aixenprovence",
-    child: {
-      title1: "Rénovation complète à Aix-En-Provence : du design à la réalisation",
-      description1: `
-        <p class="text-[#4d5562]">
-          Notre équipe de plombiers-concepteurs réalise votre salle de bains rêvée à Aix-En-Provence, de la démolition à la pose des derniers carreaux. Nous proposons :
+        <p class="text-[#4d5562] mt-4">
+          Notre engagement :
         </p>
         <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Plans 3D personnalisés</strong> : visualisation avant travaux</li>
-          <li><strong class="text-gray-700">Choix des matériaux</strong> : carrelage, faïence, parquet aquastop</li>
-          <li><strong class="text-gray-700">Installation sanitaire</strong> : douche à l'italienne, baignoire, vasque</li>
-          <li><strong class="text-gray-700">Plomberie intégrée</strong> : robinetterie design, mitigeurs thermostatiques</li>
-          <li><strong class="text-gray-700">Éclairage</strong> : spots LED, miroirs chauffants</li>
-        </ul>`,
-      title2: "Gestion de projet et garanties à Aix-en-Provence",
-      description2: `
-        <p class="text-[#4d5562]">
-          En tant qu'artisans plombiers locaux à Aix-En-Provence, nous coordonnons l'ensemble du chantier pour un résultat parfait :
-        </p>
-        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Délai garanti</strong> : respect des échéances sans surprises</li>
-          <li><strong class="text-gray-700">Garantie décennale</strong> sur l'ensemble des travaux</li>
-          <li><strong class="text-gray-700">Chantier propre</strong> : déchets évacués quotidiennement</li>
-          <li><strong class="text-gray-700">Un seul interlocuteur</strong> : suivi personnalisé à chaque étape</li>
-          <li><strong class="text-gray-700">Solutions adaptées</strong> : espaces réduits ou contraintes techniques</li>
+          <li><strong>Garantie 6 mois</strong> sur toutes interventions</li>
+          <li><strong>Devis gratuit</strong> : pas de frais cachés</li>
+          <li><strong>Équipements modernes</strong> : sans produits corrosifs</li>
+          <li><strong>Conseils préventifs</strong> : pour éviter les récidives</li>
         </ul>
         <p class="text-[#4d5562] mt-4">
-          Nous transformons votre salle de bains à Aix-En-Provence en 2 à 3 semaines selon complexité.
+          <strong>Plombier Aix Expert</strong> intervient dans tous les quartiers pour vos problèmes de canalisation.
         </p>`,
-      img1: "/images/salle-de-bain.webp",
-      img2: "/images/salle-bain-PMR.webp"
+      img1: "/images/debouchage-canalisation-marseille.webp",
+      img2: "/images/camera-canalisation-marseille.webp"
     }
   },
   {
-    title: "Entretien Annuel Chaudière",
-    description: "Contrat d'entretien pour chaudière à Aix-En-Provence et le Var. Détartrage, vérification des systèmes de sécurité et optimisation des performances.",
-    image: "/images/remplacement-chaudiere-aixenprovence.webp",
-    alt: "Entretien de chaudière par technicien qualifié à Quartier La Rode Aix-En-Provence",
-    link: "/services/entretien-chaudiere-aixenprovence",
-    slug: "entretien-chaudiere-aixenprovence",
+    title: "Réparation Fuite d'Eau Sans Casse à Marseille",
+    description: "Détection précise de fuites cachées à Marseille. Technologie infrarouge pour réparations propres sans démolition dans tout le 13100.",
+    image: "/images/detection-fuite-marseille.webp",
+    alt: "Détection de fuite par caméra thermique dans une maison du Quartier Mazarin à Aix",
+    link: "/services/reparation-fuite-eau-marseille",
+    slug: "reparation-fuite-eau-marseille",
     child: {
-      title1: "Entretien obligatoire à Aix-En-Provence : sécurité et performance",
+      title1: "Détection fuite non invasive à Marseille",
+      localisation1: "Quartier Mazarin (13100)",
+      localisation2: "La Pioline",
       description1: `
         <p class="text-[#4d5562]">
-          L'entretien annuel de votre chaudière dans les quartiers d'Aix-En-Provence est non seulement obligatoire mais essentiel pour votre sécurité et votre confort. Nos techniciens Qualigaz interviennent à domicile pour :
+          Fuite d'eau cachée dans vos murs à Marseille ? Notre équipe utilise des caméras thermiques pour localiser précisément les fuites dans les quartiers <strong>Mazarin et La Pioline</strong> sans causer de dégâts.
+        </p>
+        <p class="text-[#4d5562] mt-4">
+          Nous réparons :
         </p>
         <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Contrôle complet</strong> : brûleur, échangeur, ventouse</li>
-          <li><strong class="text-gray-700">Nettoyage approfondi</strong> : détartrage et désembouage</li>
-          <li><strong class="text-gray-700">Vérification sécurité</strong> : système anti-retour, pression, CO</li>
-          <li><strong class="text-gray-700">Optimisation rendement</strong> : réglage de la combustion</li>
-          <li><strong class="text-gray-700">Conformité</strong> : attestation d'entretien fournie</li>
+          <li><strong>Fuite sous carrelage</strong> : réparation sans casser</li>
+          <li><strong>Canalisations encastrées</strong> : détection dans murs</li>
+          <li><strong>Réseaux chauffage</strong> : fuites planchers chauffants</li>
+          <li><strong>Diagnostic complet</strong> : rapport avec images thermiques</li>
         </ul>`,
-      title2: "Contrats d'entretien sur mesure à Aix-en-Provence",
+      title2: "Solutions durables pour les Aixois",
       description2: `
         <p class="text-[#4d5562]">
-          Optez pour notre contrat d'entretien annuel et bénéficiez d'avantages exclusifs :
+          Après localisation, nous utilisons des techniques innovantes comme le chemisage de canalisations pour réparer sans gros travaux.
+        </p>
+        <p class="text-[#4d5562] mt-4">
+          Nos atouts à Aix :
         </p>
         <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Prix fixe</strong> : sans surprise avec rappel automatique</li>
-          <li><strong class="text-gray-700">Dépannage prioritaire</strong> : 7j/7 en cas de panne</li>
-          <li><strong class="text-gray-700">Pièces détachées</strong> :  préférentiels</li>
-          <li><strong class="text-gray-700">Intervention rapide</strong> : sous 24h en saison froide</li>
-          <li><strong class="text-gray-700">Économies garanties</strong> : jusqu'à 12% sur votre consommation</li>
+          <li><strong>Garantie décennale</strong> sur réparations</li>
+          <li><strong>Restauration complète</strong> des surfaces</li>
+          <li><strong>Économies d'eau</strong> : détection micro-fuites</li>
+          <li><strong>Certification Qualibat</strong> : qualité garantie</li>
         </ul>
         <p class="text-[#4d5562] mt-4">
-          Nous entretenons tous types de chaudières à Aix-En-Provence : gaz, fioul, bois ou granulés.
+          Évitez les dégâts des eaux dans votre maison aixoise grâce à notre expertise.
         </p>`,
-      img1: "/images/remplacement-chaudiere-aixenprovence.webp",
-      img2: "/images/installation-chaufage-aixenprovence.webp"
+      img1: "/images/detection-fuite-marseille.webp",
+      img2: "/images/chemisage-canalisation-marseille.webp"
     }
   },
   {
-    title: "Installation Pompe à Chaleur",
-    description: "Installation de pompes à chaleur à Aix-En-Provence par des experts certifiés RGE. Solutions écologiques et économiques pour votre chauffage et eau chaude.",
-    image: "/images/installation-pompe-a-chaleur.webp",
-    alt: "Installation de pompe à chaleur par expert à Quartier Mourillon Aix-En-Provence",
-    link: "/services/installation-pompe-chaleur-aixenprovence",
-    slug: "installation-pompe-chaleur-aixenprovence",
+    title: "Installation Chauffe-Eau à Marseille",
+    description: "Pose et remplacement de chauffe-eau à Marseille. Solutions électriques, thermodynamiques et gaz avec aides de l'État pour les habitants du 13100.",
+    image: "/images/installation-chaufage-marseille.webp",
+    alt: "Installation chauffe-eau thermodynamique dans une maison des Milles à Aix",
+    link: "/services/installation-chauffe-eau-marseille",
+    slug: "installation-chauffe-eau-marseille",
     child: {
-      title1: "Pompe à chaleur à Aix-En-Provence : solution écologique et économique",
+      title1: "Chauffe-eau nouvelle génération à Aix",
+      localisation1: "Les Milles (13290)",
+      localisation2: "Pont de l'Arc",
       description1: `
         <p class="text-[#4d5562]">
-          Profitez d'un système de chauffage performant et écologique dans votre logement à Aix-En-Provence. Nos techniciens certifiés RGE installent tous types de pompes à chaleur :
+          Remplacement ou installation de chauffe-eau dans les quartiers <strong>Les Milles et Pont de l'Arc</strong> par nos plombiers certifiés. Solutions adaptées au climat aixois :
         </p>
         <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">PAC air/eau</strong> : pour chauffage central et eau chaude</li>
-          <li><strong class="text-gray-700">PAC air/air</strong> : système réversible pour chauffage et climatisation</li>
-          <li><strong class="text-gray-700">PAC géothermique</strong> : solution haut de gamme pour meilleur rendement</li>
-          <li><strong class="text-gray-700">Installation clé en main</strong> : de l'étude technique à la mise en service</li>
-          <li><strong class="text-gray-700">Bénéficiez des aides de l'État</strong> : MaPrimeRénov', CEE, éco-prêt</li>
+          <li><strong>Électrique</strong> : standard ou instantané</li>
+          <li><strong>Thermodynamique</strong> : jusqu'à 70% d'économies</li>
+          <li><strong>Gaz</strong> : idéal familles nombreuses</li>
+          <li><strong>Solaire</strong> : énergie renouvelable</li>
+          <li><strong>Remplacement express</strong> : en 2h max</li>
         </ul>`,
-      title2: "Avantages des pompes à chaleur dans le climat varois",
+      title2: "Conseils experts pour Marseille",
       description2: `
         <p class="text-[#4d5562]">
-          Dans le climat d'Aix-En-Provence, une pompe à chaleur offre des performances optimales pour :
+          Notre équipe vous guide dans le choix le plus adapté à votre logement aixois et vous aide à bénéficier des aides locales (MaPrimeRénov', CEE).
+        </p>
+        <p class="text-[#4d5562] mt-4">
+          Service complet :
         </p>
         <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
-          <li><strong class="text-gray-700">Réduire votre facture énergétique</strong> : jusqu'à 60% d'économies</li>
-          <li><strong class="text-gray-700">Valoriser votre logement</strong> : solution écologique moderne</li>
-          <li><strong class="text-gray-700">Un confort toute l'année</strong> : chauffage en hiver, climatisation en été</li>
-          <li><strong class="text-gray-700">Éligibilité aux aides</strong> : jusqu'à 75% du coût pris en charge</li>
-          <li><strong class="text-gray-700">Garantie décennale</strong> : sur l'installation et les équipements</li>
+          <li><strong>Démontage/évacuation</strong> ancien appareil</li>
+          <li><strong>Installation aux normes</strong> avec sécurité neuve</li>
+          <li><strong>Mise en service</strong> et explications</li>
+          <li><strong>Contrat entretien</strong> optionnel</li>
+          <li><strong>Urgence 7j/7</strong> chauffe-eau</li>
         </ul>
         <p class="text-[#4d5562] mt-4">
-          Nous intervenons dans tout le département du Var pour des installations performantes et durables.
+          Profitez d'eau chaude toute l'année dans votre maison aixoise.
         </p>`,
-      img1: "/images/installation-pompe-a-chaleur.webp",
-      img2: "/images/pompe-a-chaleur-aix-en-provence.webp"
+      img1: "/images/installation-chaufage-marseille.webp",
+      img2: "/images/chauffe-eau-thermodynamique-marseille.webp"
+    }
+  },
+  {
+    title: "Rénovation Salle de Bains à Marseille",
+    description: "Transformation clé en main de salles de bains à Marseille. De la conception à la réalisation avec garantie décennale pour les habitants du 13100.",
+    image: "/images/salle-bain-modern-marseille.webp",
+    alt: "Rénovation salle de bains moderne dans le quartier Centre-ville d'Aix",
+    link: "/services/renovation-salle-de-bains-marseille",
+    slug: "renovation-salle-de-bains-marseille",
+    child: {
+      title1: "Salle de bains sur mesure à Aix",
+      localisation1: "Centre-ville (13100)",
+      localisation2: "La Pioline",
+      description1: `
+        <p class="text-[#4d5562]">
+          Notre équipe transforme votre salle de bains dans les quartiers <strong>Centre-ville et La Pioline</strong> avec des solutions adaptées aux maisons aixoises :
+        </p>
+        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
+          <li><strong>Plans 3D</strong> : visualisation avant travaux</li>
+          <li><strong>Matériaux provençaux</strong> : carrelage, faïence</li>
+          <li><strong>Sanitaires design</strong> : douche italienne, vasque</li>
+          <li><strong>Plomberie intégrée</strong> : robinetterie thermostatique</li>
+          <li><strong>Éclairage LED</strong> : miroirs chauffants</li>
+        </ul>`,
+      title2: "Gestion de projet pour les Aixois",
+      description2: `
+        <p class="text-[#4d5562]">
+          Artisans locaux spécialistes des rénovations à Marseille, nous gérons votre projet de A à Z :
+        </p>
+        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
+          <li><strong>Délai garanti</strong> : respect des échéances</li>
+          <li><strong>Garantie décennale</strong> sur les travaux</li>
+          <li><strong>Chantier propre</strong> : déchets évacués</li>
+          <li><strong>Suivi personnalisé</strong> : un seul interlocuteur</li>
+          <li><strong>Solutions sur mesure</strong> : espaces réduits</li>
+        </ul>
+        <p class="text-[#4d5562] mt-4">
+          Transformez votre salle de bains à Marseille en 2-3 semaines.
+        </p>`,
+      img1: "/images/salle-bain-modern-marseille.webp",
+      img2: "/images/salle-bain-pmr-marseille.webp"
+    }
+  },
+  {
+    title: "Entretien Chaudière à Marseille",
+    description: "Contrat d'entretien annuel pour chaudières à Marseille. Détartrage, vérification sécurité et optimisation performance pour les habitants du 13100.",
+    image: "/images/remplacement-chaudiere-marseille.webp",
+    alt: "Entretien chaudière par technicien qualifié dans une maison des Allumettes à Aix",
+    link: "/services/entretien-chaudiere-marseille",
+    slug: "entretien-chaudiere-marseille",
+    child: {
+      title1: "Entretien régulier à Marseille",
+      localisation1: "Les Allumettes (13090)",
+      localisation2: "Encagnane",
+      description1: `
+        <p class="text-[#4d5562]">
+          L'entretien annuel obligatoire de votre chaudière dans les quartiers <strong>Les Allumettes et Encagnane</strong> assure sécurité et performance dans votre logement aixois.
+        </p>
+        <p class="text-[#4d5562] mt-4">
+          Notre intervention :
+        </p>
+        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
+          <li><strong>Contrôle complet</strong> : brûleur, échangeur</li>
+          <li><strong>Nettoyage approfondi</strong> : détartrage</li>
+          <li><strong>Vérification sécurité</strong> : pression, CO</li>
+          <li><strong>Optimisation rendement</strong> : réglage combustion</li>
+          <li><strong>Attestation</strong> : conformité fournie</li>
+        </ul>`,
+      title2: "Contrats avantageux pour Marseille",
+      description2: `
+        <p class="text-[#4d5562]">
+          Optez pour notre contrat d'entretien annuel avec des avantages exclusifs :
+        </p>
+        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
+          <li><strong>Forfait annuel</strong> : prix fixe sans surprise</li>
+          <li><strong>Dépannage prioritaire</strong> : 7j/7 en cas de panne</li>
+          <li><strong>Pièces détachées</strong> : tarifs préférentiels</li>
+          <li><strong>Intervention rapide</strong> : sous 24h en hiver</li>
+          <li><strong>Économies garanties</strong> : -12% consommation</li>
+        </ul>
+        <p class="text-[#4d5562] mt-4">
+          Nous entretenons tous types de chaudières à Aix : gaz, fioul, bois.
+        </p>`,
+      img1: "/images/remplacement-chaudiere-marseille.webp",
+      img2: "/images/climatisation-chaudiere-marseille.webp"
+    }
+  },
+  {
+    title: "Installation Pompe à Chaleur à Marseille",
+    description: "Pose de pompes à chaleur par experts RGE à Marseille. Solutions écologiques pour chauffage et eau chaude avec aides de l'État dans le 13100.",
+    image: "/images/pompe-a-chaleur-marseille.webp",
+    alt: "Installation pompe à chaleur air/eau dans une villa de La Pioline à Aix",
+    link: "/services/installation-pompe-chaleur-marseille",
+    slug: "installation-pompe-chaleur-marseille",
+    child: {
+      title1: "PAC écologique à Marseille",
+      localisation1: "La Pioline (13540)",
+      localisation2: "Quartier Mazarin",
+      description1: `
+        <p class="text-[#4d5562]">
+          Système de chauffage performant et écologique pour votre maison aixoise. Nos techniciens RGE installent dans les quartiers <strong>La Pioline et Mazarin</strong> :
+        </p>
+        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
+          <li><strong>PAC air/eau</strong> : chauffage + eau chaude</li>
+          <li><strong>PAC air/air</strong> : réversible chauffage/clim</li>
+          <li><strong>PAC géothermique</strong> : rendement optimal</li>
+          <li><strong>Installation clé en main</strong> : étude à mise en service</li>
+          <li><strong>Aides de l'État</strong> : MaPrimeRénov', CEE</li>
+        </ul>`,
+      title2: "Avantages pour les Aixois",
+      description2: `
+        <p class="text-[#4d5562]">
+          Dans le climat d'Marseille, une PAC offre des performances exceptionnelles :
+        </p>
+        <ul class="list-disc list-inside mt-4 space-y-2 px-6 text-[#4d5562]">
+          <li><strong>Réduction facture</strong> : jusqu'à 60% d'économies</li>
+          <li><strong>Valorisation bien</strong> : solution écologique moderne</li>
+          <li><strong>Confort toute l'année</strong> : chauffage hiver, clim été</li>
+          <li><strong>Aides importantes</strong> : jusqu'à 75% du coût</li>
+          <li><strong>Garantie décennale</strong> : installation et équipements</li>
+        </ul>
+        <p class="text-[#4d5562] mt-4">
+          <strong>Demandez un devis gratuit</strong> pour votre PAC à Marseille.
+        </p>`,
+      img1: "/images/pompe-a-chaleur-marseille.webp",
+      img2: "/images/pac-geothermique-marseille.webp"
     }
   }
 ];

@@ -12,34 +12,34 @@ interface Project {
 }
 const projects: Project[] = [
     {
-        title: "Débouchage canalisation cuisine - Centre-ville",
-        category: "Intervention express sous 1h",
+        title: "Débouchage canalisation cuisine - Marseille Centre (13001)",
+        category: "Intervention express sous 1h - Prix 89€",
         image: "/images/salle-de-bain.webp",
-        alt: "Débouchage canalisation cuisine par plombier urgence Centre-ville Aix-en-Provence",
+        alt: "Débouchage canalisation cuisine par plombier urgence Centre-ville Marseille",
     },
     {
-        title: "Remplacement chauffe-eau - Quartier Mourillon",
-        category: "Installation en 2h avec garantie",
-        image: "/images/entretien-de-chaudiere-a-aixenprovence.webp",
-        alt: "Remplacement chauffe-eau par plombier quartier Mourillon Aix-en-Provence",
+        title: "Remplacement chauffe-eau - Quartier Endoume (13007)",
+        category: "Installation en 2h - Economie 30%",
+        image: "/images/entretien-de-chaudiere-a-marseille.webp",
+        alt: "Remplacement chauffe-eau par plombier quartier Endoume Marseille",
     },
     {
-        title: "Réparation fuite murale - Saint-Jean du Var",
-        category: "Détection sans casse",
+        title: "Réparation fuite murale - Saint-Victor (13007)",
+        category: "Détection sans casse - Fuite réparée en 45 min",
         image: "/images/Reparation-de-fuite-eau.webp",
-        alt: "Réparation fuite murale à Saint-Jean du Var par expert plomberie Aix-en-Provence",
+        alt: "Réparation fuite murale à Saint-Victor par expert plomberie Marseille",
     },
     {
-        title: "Détection fuite enterrée - La Rode",
-        category: "Technologie non destructive",
+        title: "Détection fuite enterrée - Vauban (13006)",
+        category: "Technologie non destructive - Diagnostic précis",
         image: "/images/Inspection-de-canalisation-pour-fuite-enterrer.webp",
-        alt: "Détection fuite canalisation enterrée à La Rode Aix-en-Provence",
+        alt: "Détection fuite canalisation enterrée à Vauban Marseille",
     },
     {
-        title: "Rénovation salle de bain - Pont-du-Las",
-        category: "Travaux clé en main",
+        title: "Rénovation salle de bain - Le Panier (13002)",
+        category: "Travaux clé en main - Réalisation en 3 jours",
         image: "/images/Installations-de-canalisations-habiles.webp",
-        alt: "Rénovation salle de bain par plombier Pont-du-Las Aix-en-Provence",
+        alt: "Rénovation salle de bain par plombier Le Panier Marseille",
     },
 ];
 
@@ -78,14 +78,14 @@ export default function ProjectSection() {
                 <div className="flex justify-between items-center mb-6">
                     <div className="flex flex-col gap-4">
                         <p className="uppercase text-sm tracking-widest text-gray-500 font-medium">
-                            Nos réalisations
+                            Nos réalisations à Marseille
                         </p>
                         <div className="flex gap-5 max-sm:flex-col">
                             <h2 className="text-4xl font-extrabold  max-xl:text-[28px] text-[#212121]">
-                                Interventions Plomberie à Aix-En-Provence
+                                Interventions Plomberie à Marseille
                             </h2>
                             <p className="mt-2 text-gray-600 max-w-xl text-base">
-                                Exemples concrets de dépannages urgents réalisés par nos plombiers experts sur Aix-En-Provence et ses quartiers.
+                                Exemples concrets de dépannages urgents réalisés par nos plombiers experts sur Marseille et ses quartiers.
                             </p>
                         </div>
 

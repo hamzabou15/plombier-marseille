@@ -11,16 +11,16 @@ const ContactForm = () => {
     return (
         <>
             <Head>
-                <title>Contact Plombier à Aix-En-Provence – Demandez un devis gratuit</title>
+                <title>Contact Plombier à Marseille – Demandez un devis gratuit</title>
                 <meta
                     name="description"
-                    content="Besoin d’un plombier à Aix-En-Provence ? Contactez-nous dès maintenant pour une intervention rapide, un diagnostic ou une mise aux normes. Réponse garantie en moins de 24h."
+                    content="Besoin d’un plombier à Marseille ? Contactez-nous dès maintenant pour une intervention rapide, un diagnostic ou une mise aux normes. Réponse garantie en moins de 24h."
                 />
             </Head>
 
             <section
-                id="contact-plombier-aixenprovence"
-                aria-label="Formulaire de contact pour dépannage plomberie à Aix-En-Provence"
+                id="contact-plombier-marseille"
+                aria-label="Formulaire de contact pour dépannage plomberie à Marseille"
                 className="w-full bg-white py-20 px-8 md:px-8"
             >
                 <div className="max-w-3xl mx-auto text-center mb-12">
@@ -47,7 +47,7 @@ const ContactForm = () => {
                         <input
                             type="hidden"
                             name="_subject"
-                            value="Nouvelle demande – Formulaire plombier Aix-En-Provence"
+                            value="Nouvelle demande – Formulaire plombier Marseille"
                         />
                         <div className="flex flex-col md:flex-row gap-6">
                             <input
@@ -87,7 +87,7 @@ const ContactForm = () => {
                         <div className="flex justify-center mt-4">
                             <button
                                 type="submit"
-                                className="mt-4 w-fit px-6 py-2 bg-[#E67E22] text-white font-semibold  hover:bg-[#005f87] transition col-span-2"
+                                className="mt-4 w-fit px-6 py-2 bg-[#43926b] text-white font-semibold  hover:bg-[#005f87] transition col-span-2"
                             >
                                 Envoyer ma demande
                             </button>

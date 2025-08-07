@@ -4,19 +4,19 @@ import Head from 'next/head'
 import React from 'react'
 
 export const metadata = {
-    title: "Plombier à Aix-En-Provence - Interventions rapides & professionnelles",
-    description: "Intervention express à Aix-En-Provence pour dépannage, fuite, débouchage, chauffe-eau et plus. Plombier expérimenté, devis gratuit et service garanti.",
+    title: "Plombier à Marseille - Interventions rapides & professionnelles",
+    description: "Intervention express à Marseille pour dépannage, fuite, débouchage, chauffe-eau et plus. Plombier expérimenté, devis gratuit et service garanti.",
     openGraph: {
-        title: "Plombier à Aix-En-Provence - Interventions rapides & professionnelles",
-        description: "Intervention express à Aix-En-Provence pour dépannage, fuite, débouchage, chauffe-eau et plus.",
-        url: "https://plombieraixenprovence-sos.fr",
-        siteName: "Plombier Aix-En-Provence SOS",
+        title: "Plombier à Marseille - Interventions rapides & professionnelles",
+        description: "Intervention express à Marseille pour dépannage, fuite, débouchage, chauffe-eau et plus.",
+        url: "https://plombiermarseille-expert.fr",
+        siteName: "Plombier Marseille Expert",
         images: [
             {
-                url: "https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence-hero.webp",
+                url: "https://plombiermarseille-expert.fr/images/plombier-marseille-hero.webp",
                 width: 800,
                 height: 600,
-                alt: "Plombier professionnel à Aix-En-Provence",
+                alt: "Plombier professionnel à Marseille",
             },
         ],
         locale: "fr_FR",
@@ -24,9 +24,9 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Plombier à Aix-En-Provence - Interventions rapides & professionnelles",
-        description: "Plombier expérimenté pour dépannage, fuite, chauffe-eau, rénovation à Aix-En-Provence. Service rapide, devis gratuit.",
-        images: ["https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence-hero.webp"],
+        title: "Plombier à Marseille - Interventions rapides & professionnelles",
+        description: "Plombier expérimenté pour dépannage, fuite, chauffe-eau, rénovation à Marseille. Service rapide, devis gratuit.",
+        images: ["https://plombiermarseille-expert.fr/images/plombier-marseille-hero.webp"],
     },
 };
 const page = () => {
@@ -40,15 +40,15 @@ const page = () => {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "LocalBusiness",
-                            name: "PlombierAix-En-Provence SOS",
-                            image: "https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence-hero.webp",
-                            "@id": "https://plombieraixenprovence-sos.fr/",
-                            url: "https://plombieraixenprovence-sos.fr/",
+                            name: "PlombierMarseille Expert",
+                            image: "https://plombiermarseille-expert.fr/images/plombier-marseille-hero.webp",
+                            "@id": "https://plombiermarseille-expert.fr/",
+                            url: "https://plombiermarseille-expert.fr/",
                             telephone: "+33756935200",
                             address: {
                                 "@type": "PostalAddress",
                                 streetAddress: "12 Rue de France",
-                                addressLocality: "Aix-En-Provence",
+                                addressLocality: "Marseille",
                                 postalCode: "06000",
                                 addressCountry: "FR",
                             },

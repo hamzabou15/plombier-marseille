@@ -8,50 +8,50 @@ import { useSwipeable } from "react-swipeable";
 const testimonials = [
   {
     name: "Nathalie Dupont",
-    location: "Centre-ville, Aix-en-Provence",
+    location: "Centre-ville (13001), Marseille",
     image: "/icons/femme1.webp",
     quote:
-      "Intervention rapide pour détecter une fuite d'eau encastrée à Aix-En-Provence Centre. Réponse en urgence 24h/24. Service professionnel, je recommande vivement !",
+      "Intervention rapide pour une fuite d'eau à Marseille Centre. Service professionnel 24h/24. Plombier Marseille Expert a résolu mon problème en 30 minutes !",
     color: "black",
   },
   {
     name: "Olivier Martin",
-    location: "Quartier Ouest, Aix-en-Provence",
+    location: "Quartier Vauban (13006), Marseille",
     image: "/icons/homme1.webp",
     quote:
-      "Très professionnel, dépannage en urgence sans casse. Détection de fuite impeccable, prix raisonnables. Service de plombier recommandé pour Aix-en-Provence.",
+      "Très professionnel, dépannage en urgence sans casse. Détection de fuite impeccable à Vauban. Plombier pas cher Marseille, je recommande !",
     color: "teal",
   },
   {
     name: "Claire Lefèvre",
-    location: "Quartier Est, Aix-en-Provence",
+    location: "Endoume (13007), Marseille",
     image: "/icons/femme2.webp",
     quote:
-      "Intervention en urgence à Aix-en-Provence Est, détection rapide de la fuite d'eau. Aucun dégât, travail soigné. Plombier expérimenté et fiable.",
+      "Intervention en urgence à Endoume, détection rapide de la fuite d'eau. Aucun dégât, travail soigné. Plombier expérimenté et fiable à Marseille.",
     color: "teal",
   },
   {
     name: "Julien Fournier",
-    location: "La Garde (83)",
+    location: "Le Panier (13002), Marseille",
     image: "/icons/homme2.webp",
     quote:
-      "Un service impeccable à La Garde : diagnostic précis et réparation sans délais. Le technicien a été clair, efficace et très aimable. Je suis rassuré.",
+      "Service impeccable dans le quartier Le Panier : diagnostic précis et réparation sans délais. Le meilleur plombier de Marseille !",
     color: "black",
   },
   {
     name: "Sophie Bernard",
-    location: "Mourillon, Aix-en-Provence",
+    location: "Saint-Victor (13007), Marseille",
     image: "/icons/femme3.webp",
     quote:
-      "Fuite détectée en un rien de temps dans mon quartier de Mourillon, sans déranger la structure. Excellent suivi et communication. Je conseille fortement.",
+      "Fuite détectée en un rien de temps à Saint-Victor, sans déranger la structure. Excellent suivi. Plombier Marseille à recommander absolument.",
     color: "teal",
   },
   {
     name: "Marc Petit",
-    location: "Pont-du-Las, Aix-en-Provence",
+    location: "Le Roucas (13007), Marseille",
     image: "/icons/homme3.webp",
     quote:
-      "Résolu rapidement dans le quartier Pont-du-Las, prix transparent et service très réactif. J'ai pu reprendre une vie normale rapidement, merci!",
+      "Problème résolu rapidement au Roucas, prix transparent et service réactif. Le plombier d'urgence idéal pour Marseille !",
     color: "black",
   },
 ];
@@ -91,12 +91,12 @@ export default function Testimonials() {
   return (
     <section
       className="w-full px-4 sm:px-6 py-12 xl:max-w-7xl mx-auto"
-      aria-label="Témoignages clients"
+      aria-label="Témoignages clients plombier Marseille"
     >
       <div className="text-center mb-12">
-        <p className="text-sm tracking-widest text-[#555555] uppercase">Avis Clients</p>
+        <p className="text-sm tracking-widest text-[#555555] uppercase">Avis Clients Marseille</p>
         <h2 className="text-4xl font-bold text-[#2f2f2f] mt-2 max-xl:text-[28px]">
-          Ce que disent nos clients de Aix-en-Provence et ses environs
+          Ce que disent nos clients de Marseille et ses quartiers
         </h2>
       </div>
 
@@ -109,7 +109,7 @@ export default function Testimonials() {
           onClick={prev}
           className="absolute left-2 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow-md hover:scale-105 transition"
         >
-          <ChevronLeft className="w-6 h-6 text-[#E67E22]" />
+          <ChevronLeft className="w-6 h-6 text-[#43926b]" />
         </button>
 
         {visibleTestimonials.map((t, i) => (
@@ -159,7 +159,7 @@ export default function Testimonials() {
           onClick={next}
           className="absolute right-2 top-1/2 -translate-y-1/2 z-10 bg-white rounded-full p-2 shadow-md hover:scale-105 transition"
         >
-          <ChevronRight className="w-6 h-6 text-[#E67E22]" />
+          <ChevronRight className="w-6 h-6 text-[#43926b]" />
         </button>
       </div>
 
@@ -171,7 +171,7 @@ export default function Testimonials() {
             onClick={() => setIndex(idx)}
             className={cn(
               "w-3 h-3 rounded-full transition",
-              idx === index ? "bg-[#E67E22]" : "bg-[#d1d5db]"
+              idx === index ? "bg-[#43926b]" : "bg-[#d1d5db]"
             )}
           />
         ))}

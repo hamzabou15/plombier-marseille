@@ -1,14 +1,14 @@
 {
   "@context": "https://schema.org",
   "@type": "Plumber",
-  "name": "Plombier Aix-En-Provence SOS",
-  "image": "https://plombieraixenprovence-sos.fr/images/plombier-aixenprovence.webp",
-  "url": "https://plombieraixenprovence-sos.fr",
+  "name": "Plombier Marseille Expert",
+  "image": "https://plombiermarseille-expert.fr/images/plombier-marseille.webp",
+  "url": "https://plombiermarseille-expert.fr",
   "telephone": "+33756935200",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "10 Rue Masséna",
-    "addressLocality": "Aix-En-Provence",
+    "addressLocality": "Marseille",
     "postalCode": "06000",
     "addressCountry": "FR"
   },
@@ -27,11 +27,11 @@
       "closes": "23:59"
     }
   ],
-  "description": "Plombier à Aix-En-Provence disponible 24h/24 pour toute urgence plomberie, débouchage, fuite, installation ou rénovation.",
+  "description": "Plombier à Marseille disponible 24h/24 pour toute urgence plomberie, débouchage, fuite, installation ou rénovation.",
   "priceRange": "€€",
   "paymentAccepted": "Cash, Credit Card",
   "areaServed": {
     "@type": "Place",
-    "name": "Aix-En-Provence et alentours"
+    "name": "Marseille et alentours"
   }
 }

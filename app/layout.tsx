@@ -15,28 +15,28 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Plombier à Aix-En-Provence – Dépannage rapide et efficace | PlombierAix-En-Provence SOS",
+  title: "Plombier à Marseille – Dépannage rapide et efficace | PlombierMarseille Expert",
   description:
-    "Plombier professionnel à Aix-En-Provence : dépannage en urgence, détection de fuites, débouchage, rénovation de salle de bains. Devis gratuit 7j/7 !",
+    "Plombier professionnel à Marseille : dépannage en urgence, détection de fuites, débouchage, rénovation de salle de bains. Devis gratuit 7j/7 !",
   keywords: [
-    "plombier Aix-En-Provence",
-    "urgence plomberie Aix-En-Provence",
-    "chauffe-eau Aix-En-Provence",
-    "débouchage canalisation Aix-En-Provence",
-    "rénovation salle de bains Aix-En-Provence",
+    "plombier Marseille",
+    "urgence plomberie Marseille",
+    "chauffe-eau Marseille",
+    "débouchage canalisation Marseille",
+    "rénovation salle de bains Marseille",
   ],
   openGraph: {
-    title: "Plombier à Aix-En-Provence – Dépannage rapide et efficace | PlombierAix-En-Provence SOS",
+    title: "Plombier à Marseille – Dépannage rapide et efficace | PlombierMarseille Expert",
     description:
-      "Interventions express à Aix-En-Provence : fuite d’eau, débouchage, chauffe-eau, rénovation de salle de bains. Contactez un artisan local fiable.",
-    url: "https://plombieraixenprovence-sos.fr/",
-    siteName: "PlombierAix-En-Provence SOS",
+      "Interventions express à Marseille : fuite d’eau, débouchage, chauffe-eau, rénovation de salle de bains. Contactez un artisan local fiable.",
+    url: "https://plombiermarseille-expert.fr/",
+    siteName: "PlombierMarseille Expert",
     images: [
       {
-        url: "/images/plombier-aixenprovence-hero.webp",
+        url: "/images/plombier-marseille-hero.webp",
         width: 1200,
         height: 630,
-        alt: "Plombier professionnel à Aix-En-Provence",
+        alt: "Plombier professionnel à Marseille",
       },
     ],
     locale: "fr_FR",

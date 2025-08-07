@@ -18,7 +18,7 @@ const ContactSection = () => {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/meozrlnej", {
+      const response = await fetch("https://formspree.io/f/xldlorzk", {
         method: "POST",
         body: formData,
         headers: {
@@ -59,29 +59,29 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="bg-gradient-to-b from-[#fcf7f0] to-[#f5e6cc] py-20 px-6">
+    <section className="bg-gradient-to-b from-[#f0fcf4] to-[#ccf5d0] py-20 px-6">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12">
         {/* Left Info Panel */}
         <div className="flex flex-col justify-between gap-8">
           <div>
             <div className="inline-flex items-center gap-2 mb-2">
-              <span className="inline-block bg-[#E67E22] text-white px-3 py-1 rounded-full text-xs font-semibold">
+              <span className="inline-block bg-[#43926b] text-white px-3 py-1 rounded-full text-xs font-semibold">
                 URGENCE 24/7
               </span>
             </div>
             <h2 className="text-4xl font-extrabold leading-tight text-[#2f2f2f] mb-4">
-              Plombier disponible <br className="hidden sm:block" />
-              <span className="text-[#E67E22]">24h/24 — +33 7 56 93 52 00</span>
+              Plombier disponible à Marseille <br className="hidden sm:block" />
+              <span className="text-[#43926b]">24h/24 — +33 7 56 93 52 00</span>
             </h2>
             <p className="text-base text-[#4a4a4a] mb-6">
-              Fuite d&apos;eau, WC bouché, panne de chauffe-eau ? Intervention en{" "}
-              <strong>moins de 30 minutes</strong> sur Aix-en-Provence et ses environs, sans surprise.
+              Fuite d&apos;eau, WC bouché, panne de chauffe-eau à Marseille ? Intervention en{" "}
+              <strong>moins de 30 minutes</strong> dans tous les quartiers de Marseille, sans surprise.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
               <div className="bg-white rounded-2xl p-6 shadow border border-[#e8dfd6]">
                 <h3 className="text-lg font-semibold text-[#2f2f2f] mb-1">
-                  Horaires
+                  Horaires à Marseille
                 </h3>
                 <p className="text-sm text-[#555555]">
                   <strong>Tous les jours</strong> — 24h/24 (week-ends & jours fériés inclus)
@@ -89,10 +89,10 @@ const ContactSection = () => {
               </div>
               <div className="bg-white rounded-2xl p-6 shadow border border-[#e8dfd6]">
                 <h3 className="text-lg font-semibold text-[#2f2f2f] mb-1">
-                  Zones d&apos;intervention
+                  Zones d&apos;intervention à Marseille
                 </h3>
                 <p className="text-sm text-[#555555]">
-                  Centre-ville, Mourillon, Pont-du-Las, La Rode et toute l&apos;agglomération
+                  Tous arrondissements : Centre-ville, Le Panier, Endoume, Saint-Victor, Vauban, Le Roucas
                 </p>
               </div>
             </div>
@@ -100,8 +100,8 @@ const ContactSection = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="tel:+33756935200"
-                aria-label="Appeler en urgence"
-                className="inline-flex items-center gap-2 bg-[#E67E22] hover:bg-[#cf6a1d] transition text-white font-semibold px-6 py-3 rounded-lg shadow-lg flex-1 justify-center"
+                aria-label="Appeler en urgence plombier Marseille"
+                className="inline-flex items-center gap-2 bg-[#43926b] hover:bg-[#39624e] transition text-white font-semibold px-6 py-3 rounded-lg shadow-lg flex-1 justify-center"
               >
                 <Phone className="h-5 w-5" /> Appel direct 24h/24
               </a>
@@ -112,21 +112,21 @@ const ContactSection = () => {
           <div className="mt-4 text-sm flex flex-col gap-2">
             <div className="flex items-start gap-2">
               <div className="flex-shrink-0">
-                <CheckCircle className="h-5 w-5 text-[#E67E22]" />
+                <CheckCircle className="h-5 w-5 text-[#43926b]" />
               </div>
               <div>
                 <p className="text-[#444444]">
-                  Plombiers certifiés & assurés — Devis gratuit avant intervention.
+                  Plombiers certifiés & assurés — Devis gratuit avant intervention à Marseille.
                 </p>
               </div>
             </div>
             <div className="flex items-start gap-2">
               <div className="flex-shrink-0">
-                <CheckCircle className="h-5 w-5 text-[#E67E22]" />
+                <CheckCircle className="h-5 w-5 text-[#43926b]" />
               </div>
               <div>
                 <p className="text-[#444444]">
-                  Transparence tarifaire — Pas de frais cachés.
+                  Transparence tarifaire — Pas de frais cachés pour les habitants de Marseille.
                 </p>
               </div>
             </div>
@@ -135,12 +135,12 @@ const ContactSection = () => {
 
         {/* Form Panel */}
         <div className="relative bg-white rounded-2xl shadow-2xl p-10 border border-[#e8dfd6]">
-          <div className="absolute -top-6 -right-6 w-36 h-36 bg-gradient-to-br from-[#E67E22] to-[#d46b1f] rounded-full opacity-15"></div>
+          <div className="absolute -top-6 -right-6 w-36 h-36 bg-gradient-to-br from-[#43926b] to-[#d46b1f] rounded-full opacity-15"></div>
           <form onSubmit={handleSubmit} className="space-y-6 relative z-10">
             <input
               type="hidden"
               name="_subject"
-              value="Urgence Plombier Aix-En-Provence - Nouvelle demande"
+              value="Urgence Plombier Marseille - Nouvelle demande"
             />
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -152,7 +152,7 @@ const ContactSection = () => {
                   name="Nom"
                   required
                   placeholder="Votre nom"
-                  className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                  className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
                   type="text"
                 />
               </div>
@@ -164,7 +164,7 @@ const ContactSection = () => {
                   name="Téléphone"
                   required
                   placeholder="06 12 34 56 78"
-                  className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                  className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
                   type="tel"
                 />
               </div>
@@ -178,19 +178,19 @@ const ContactSection = () => {
                 <input
                   name="Email"
                   placeholder="vous@exemple.com"
-                  className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                  className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
                   type="email"
                 />
               </div>
               <div>
                 <label className="block mb-1 font-medium text-[#2f2f2f]">
-                  Adresse & Quartier *
+                  Adresse & Arrondissement *
                 </label>
                 <input
                   name="Adresse"
                   required
-                  placeholder="Ex: 12 Rue du Centre, Quartier Mourillon"
-                  className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                  placeholder="Ex: 12 Rue du Centre, 13001 Marseille"
+                  className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
                   type="text"
                 />
               </div>
@@ -198,12 +198,12 @@ const ContactSection = () => {
 
             <div>
               <label className="block mb-1 font-medium text-[#2f2f2f]">
-                Type d&apos;urgence *
+                Type d&apos;urgence à Marseille *
               </label>
               <select
                 name="Besoin"
                 required
-                className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
                 defaultValue=""
               >
                 <option value="" disabled>
@@ -232,22 +232,22 @@ const ContactSection = () => {
                 name="Message"
                 required
                 rows={3}
-                placeholder="Expliquez rapidement le problème et votre localisation précise"
-                className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                placeholder="Décrivez votre problème de plomberie et votre arrondissement à Marseille"
+                className="w-full rounded-md border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
               ></textarea>
             </div>
 
             <button
               type="submit"
               disabled={status?.type === "loading"}
-              className="w-full flex justify-center items-center gap-2 bg-[#E67E22] hover:bg-[#cf6a1d] transition text-white font-semibold px-6 py-3 rounded-lg shadow"
+              className="w-full flex justify-center items-center gap-2 bg-[#43926b] hover:bg-[#39624e] transition text-white font-semibold px-6 py-3 rounded-lg shadow"
             >
               {status?.type === "loading" ? (
                 <>
                   <Loader2 className="h-5 w-5 animate-spin" /> Envoi...
                 </>
               ) : (
-                "Envoyer ma demande d'urgence"
+                "Envoyer ma demande d'urgence à Marseille"
               )}
             </button>
 

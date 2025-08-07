@@ -12,7 +12,7 @@ export default function ContactSection() {
     const formData = new FormData(form);
 
     try {
-      const response = await fetch("https://formspree.io/f/meozrlnej", {
+      const response = await fetch("https://formspree.io/f/xldlorzk", {
         method: "POST",
         body: formData,
         headers: { Accept: "application/json" },
@@ -28,16 +28,15 @@ export default function ContactSection() {
       setStatus("Erreur réseau. Veuillez nous appeler directement au 07 56 93 52 00.");
     }
   };
-
-  return (
-    <section className="py-20 bg-gradient-to-b from-[#fcf7f0] to-[#f5e6cc]">
-      <div className="max-w-7xl mx-auto px-6">
+  return(
+    <section className="p-0">
+      <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-[#2f2f2f] mb-16">
-          Besoin d&apos;un plombier à Aix-en-Provence ?
+          Besoin d&apos;un plombier à Marseille ?
         </h2>
 
-        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 max-w-4xl mx-auto">
-          <h3 className="text-2xl font-semibold text-center text-[#E67E22] mb-8">
+        <div className="bg-white rounded-2xl shadow-xl p-8 max-w-4xl mx-auto">
+          <h3 className="text-2xl font-semibold text-center text-[#43926b] mb-8">
             Contactez-nous pour une intervention rapide
           </h3>
 
@@ -45,7 +44,7 @@ export default function ContactSection() {
             <input
               type="hidden"
               name="_subject"
-              value="Demande de service plomberie - Aix-en-Provence"
+              value="Demande de service plomberie - Marseille"
             />
 
             <div>
@@ -55,7 +54,7 @@ export default function ContactSection() {
                 name="Prénom"
                 placeholder="Votre prénom"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
               />
             </div>
 
@@ -66,7 +65,7 @@ export default function ContactSection() {
                 name="Nom"
                 placeholder="Votre nom"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
               />
             </div>
 
@@ -77,7 +76,7 @@ export default function ContactSection() {
                 name="Email"
                 placeholder="votre@email.com"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
               />
             </div>
 
@@ -88,7 +87,7 @@ export default function ContactSection() {
                 name="Téléphone"
                 placeholder="06 12 34 56 78"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
               />
             </div>
 
@@ -98,7 +97,7 @@ export default function ContactSection() {
                 name="Adresse"
                 placeholder="Ex: 12 Rue du Centre, Quartier Mourillon"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
               />
             </div>
 
@@ -107,7 +106,7 @@ export default function ContactSection() {
               <select
                 name="Besoin"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
               >
                 <option value="">Sélectionnez un service</option>
                 <option value="Dépannage urgence">Dépannage urgence 24h/24</option>
@@ -126,14 +125,14 @@ export default function ContactSection() {
                 rows={4}
                 placeholder="Décrivez votre problème et votre localisation précise"
                 required
-                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#E67E22]"
+                className="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-[#43926b]"
               ></textarea>
             </div>
 
             <div className="md:col-span-2 flex justify-center mt-6">
               <button
                 type="submit"
-                className="bg-[#E67E22] hover:bg-[#d68400] text-white font-bold py-3 px-8 rounded-lg shadow-lg transition duration-300"
+                className="bg-[#43926b] hover:bg-[#39624e] text-white font-bold py-3 px-8 rounded-lg shadow-lg transition duration-300"
               >
                 Demander une intervention
               </button>
@@ -152,7 +151,7 @@ export default function ContactSection() {
         <div className="mt-12 text-center">
           <p className="text-lg text-[#555555]">
             Ou contactez-nous directement par téléphone :
-            <a href="tel:+33756935200" className="font-semibold text-[#E67E22] ml-2">
+            <a href="tel:+33756935200" className="font-semibold text-[#43926b] ml-2">
               ☎ 07 56 93 52 00
             </a>
           </p>

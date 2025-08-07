@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section className="relative overflow-hidden p-20 max-lg:p-10 max-sm:p-5 ">
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute -top-20 -right-20 w-[400px] h-[400px] rounded-full bg-[#E67E22]/10 blur-3xl" />
+        <div className="absolute -top-20 -right-20 w-[400px] h-[400px] rounded-full bg-[#43926b]/10 blur-3xl" />
         <div className="absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-[#2f2f2f]/5 blur-2xl" />
       </div>
 
@@ -24,18 +24,18 @@ export default function Hero() {
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
             <p className="uppercase text-sm tracking-widest font-semibold text-[#555555] mb-1">
-              Plomberie d&apos;urgence — Aix-en-Provence et ses quartiers
+              Plomberie d&apos;urgence — Marseille et ses quartiers
             </p>
             <h1 className="font-extrabold leading-tight text-[#2f2f2f] text-4xl sm:text-5xl md:text-6xl">
-              Plombier Urgent à Aix-en-Provence <span className="text-[#E67E22]">24h/24</span>
+              Plombier Urgent à Marseille <span className="text-[#43926b]">24h/24</span>
               <br />
               Intervention Express en moins de 30 min
             </h1>
             <p className="mt-4 text-base text-[#4a4a4a] max-w-prose">
-              Votre artisan plombier certifié à Aix-en-Provence pour toutes urgences : 
-              <strong> fuites d&apos;eau, canalisations bouchées, WC bouchés et chauffe-eau en panne</strong>. 
-              Service 24/7 dans les quartiers Centre-ville, Mourillon, Pont-du-Las et toute l&apos;agglomération.
-              Devis gratuit et déplacement offert.
+              Votre <strong>plombier pas cher à Marseille</strong> pour toutes urgences :
+              <strong> fuites d&apos;eau, canalisations bouchées, WC bouchés et chauffe-eau en panne</strong>.
+              Service 24/7 dans <strong>tous les quartiers de Marseille</strong> : Centre-ville, Le Panier, Endoume, Saint-Victor, Vauban, Le Roucas.
+              <strong>Devis gratuit</strong> et déplacement offert.
             </p>
           </motion.div>
 
@@ -52,16 +52,16 @@ export default function Hero() {
                 className="w-full flex items-center justify-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                ☎ Urgence Plomberie
+                ☎ Urgence Plomberie Marseille
               </Button>
             </Link>
             <Link href="/services" className="flex-1">
               <Button
                 size="lg"
                 variant="outline"
-                className="w-full border-[#E67E22] text-[#2f2f2f]"
+                className="w-full border-[#43926b] text-[#2f2f2f]"
               >
-                Nos Services
+                Nos Services à Marseille
               </Button>
             </Link>
           </motion.div>
@@ -81,18 +81,18 @@ export default function Hero() {
             {[
               {
                 value: "24h/24",
-                label: "7j/7 même jours fériés",
-                icon: <Clock className="w-6 h-6 text-[#E67E22]" />,
+                label: "7j/7 même jours fériés à Marseille",
+                icon: <Clock className="w-6 h-6 text-[#43926b]" />,
               },
               {
                 value: "30 min",
-                label: "Délai moyen d'intervention",
-                icon: <CheckCircle className="w-6 h-6 text-[#E67E22]" />,
+                label: "Délai moyen d'intervention à Marseille",
+                icon: <CheckCircle className="w-6 h-6 text-[#43926b]" />,
               },
               {
                 value: "0€",
-                label: "Déplacement & Devis",
-                icon: <Phone className="w-6 h-6 text-[#E67E22]" />,
+                label: "Déplacement & Devis gratuit Marseille",
+                icon: <Phone className="w-6 h-6 text-[#43926b]" />,
               },
             ].map((stat, idx) => (
               <motion.div
@@ -105,7 +105,7 @@ export default function Hero() {
               >
                 <div className="flex-shrink-0">{stat.icon}</div>
                 <div>
-                  <p className="text-xl font-bold text-[#E67E22]">{stat.value}</p>
+                  <p className="text-xl font-bold text-[#43926b]">{stat.value}</p>
                   <p className="text-sm text-[#555555]">{stat.label}</p>
                 </div>
               </motion.div>
@@ -122,8 +122,8 @@ export default function Hero() {
             transition={{ duration: 0.7, ease: "circOut" }}
           >
             <Image
-              src="/images/plombier-a-aixenprovence.webp"
-              alt="Plombier professionnel en intervention d'urgence à Aix-En-Provence pour réparation fuite d'eau"
+              src="/images/plombier-a-marseille.webp"
+              alt="Plombier professionnel en intervention d'urgence à Marseille pour réparation fuite d'eau"
               width={700}
               height={600}
               className="w-full h-auto object-cover"

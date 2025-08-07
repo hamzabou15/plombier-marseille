@@ -7,9 +7,9 @@ import {  CheckCircle , MapPin, Users, Wrench } from 'lucide-react'
 const stats = [
   {
     value: 920,
-    label: 'Interventions plomberie réalisées à Aix-En-Provence',
+    label: 'Interventions plomberie réalisées à Marseille',
     icon: Wrench,
-    color: 'text-[#E67E22]',
+    color: 'text-[#43926b]',
   },
   {
     value: 85,
@@ -25,7 +25,7 @@ const stats = [
   },
   {
     value: 12,
-    label: 'Quartiers et villes desservis autour de Aix-En-Provence',
+    label: 'Quartiers et villes desservis autour de Marseille',
     icon: MapPin,
     color: 'text-[#f59e0b]',
   },
@@ -34,8 +34,8 @@ const stats = [
 const StatsCard = () => {
   return (
     <section
-      id="chiffres-plomberie-aixenprovence"
-      aria-label="Statistiques sur les interventions de plomberie à Aix-En-Provence"
+      id="chiffres-plomberie-marseille"
+      aria-label="Statistiques sur les interventions de plomberie à Marseille"
       className="max-w-7xl mx-auto py-20 px-6 sm:px-12 bg-white "
     >
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
